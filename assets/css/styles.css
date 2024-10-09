@@ -237,7 +237,7 @@ a:hover {
   height: 140px;
   overflow: hidden;
   border: 9px solid rgba(24, 46, 126, 0.5);
-  margin: 20px auto;
+  margin: 15px auto;
 }
 #head .title {
   font-family: Alice, Georgia, serif;
@@ -246,7 +246,7 @@ a:hover {
   color: #ffffff;
   background-color: rgba(24, 46, 126, 0.5); /* Semi-transparent black background */
   padding: 10px 50px;
-  border-radius: 150px; /* Optional rounded corners */
+  border-radius: 5px 5px 35px 35px; /* Optional rounded corners */
 }
 #head .title a {
   text-decoration: none;
@@ -316,6 +316,7 @@ a:hover {
 
 
 **********************************************************************/
+
 img {
   max-width: 100%;
 }
@@ -524,6 +525,72 @@ img {
 .pagination > li.active > a:hover {
   color: #000000;
   background: none;
+}
+
+/* Layout for the portfolio grid */
+.portfolio-grid {
+  display: grid;
+  grid-template-columns: auto; /* 2 columns */
+  grid-template-rows: auto;   /* 3 rows */
+  gap: 20px;                             /* Space between the blocks */
+  padding: 20px;
+}
+
+/* Style for each project block */
+.project-block {
+  display: flex;                         /* Horizontal layout for gif and text */
+  align-items: center;
+  border: 2px solid #ccc;                /* Border around each block */
+  padding: 15px;
+  margin: 20px;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+/* Make the block grow a bit on hover */
+.project-block:hover {
+  transform: scale(1.05);                /* Grows the block slightly on hover */
+  background-color: #f0f0f0;             /* Optional: change the background */
+}
+
+/* Style for the GIF container */
+.gif-container {
+  margin-right: 20px;
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+}
+
+.project-gif {
+  width: 100%;
+  height: auto;
+  display: none;                         /* Hide both images initially */
+}
+
+/* Show the static image by default */
+.project-gif.static {
+  display: block;                        /* Only the static image is visible */
+}
+
+/* Show the animated GIF on hover */
+.project-block:hover .static {
+  display: none;                         /* Hide the static image */
+}
+
+.project-block:hover .animated {
+  display: block;                        /* Show the animated GIF */
+}
+
+/* Project title */
+.project-info h2 {
+  margin: 0;
+  font-size: 1.5em;
+}
+
+/* Project description */
+.project-info p {
+  margin: 5px 0 0;
+  font-size: 1em;
+  color: #666;
 }
 /*********************************************************************
 
