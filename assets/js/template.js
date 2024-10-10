@@ -36,3 +36,12 @@ jQuery(document).ready(function($) {
 	});
 
 });
+
+//For projects detailing more info on-click
+function openPopup(popupId) {
+	document.getElementById(popupId).classList.add('show-popup');
+}
+  
+  function closePopup(popupId) {
+	document.getElementById(popupId).classList.remove('show-popup');
+}
