@@ -7,11 +7,12 @@ body {
   font-size: 15px;
   font-size: 0.9375rem;
   font-family: "Outfit", Helvetica, Arial, sans-serif;
-  color: #666666;
-  background: #031D44; /*for older browsers that don't support bg gradients */
-  background: linear-gradient(to bottom, #031D44, #031D44);
+  color: #EBF2FA;
+  background-color: #031D44; /*for older browsers that don't support bg gradients */
+  background: linear-gradient(to bottom, #04395E, #031D44);
   padding: 0;
 }
+
 .topspace {
   margin-top: 40px;
 }
@@ -174,7 +175,7 @@ h6,
 .h6 {
   font-family: "Outfit", Helvetica, Arial, sans-serif;
   font-weight: 400;
-  color: #333333;
+  color: #EBF2FA;
 }
 h1 {
   font-size: 40px;
@@ -197,10 +198,10 @@ h5 {
   font-size: 1.25rem;
 }
 a {
-  color: #bd1550;
+  color: #679436;
 }
 a:hover {
-  color: #e93675;
+  color: #A5BE00;
 }
 .lead {
   font-weight: 300;
@@ -241,7 +242,7 @@ a:hover {
   width: 140px;
   height: 140px;
   overflow: hidden;
-  border: 9px solid rgba(24, 46, 126, 0.5);
+  border: 9px #031d4482;
   margin: 15px auto;
 }
 #head .title {
@@ -249,7 +250,7 @@ a:hover {
   font-size: 49px;
   font-size: 3.0625rem;
   color: #ffffff;
-  background-color: rgba(24, 46, 126, 0.5); /* Semi-transparent black background */
+  background-color: #031d4482; /* Semi-transparent black background */
   padding: 10px 50px;
   border-radius: 5px 5px 35px 35px; /* Optional rounded corners */
 }
@@ -258,12 +259,11 @@ a:hover {
   color: #333333;
 }
 #head .tagline {
-  display: block;
   font-size: 14px;
-  font-size: 0.875rem;
+  font-size: 0.975rem;
   line-height: 1.2em;
-  color: #7C7C7C;
-  margin: 5px 0 0;
+  color: #ffffff;
+  margin: 15px 0 0;
 }
 #head .tagline b {
   font-weight: normal;
@@ -275,13 +275,17 @@ a:hover {
   padding: 90px 0;
 }
 .home #head .title {
+  display: block;
   font-size: 49px;
   font-size: 3.0625rem;
 }
 .home #head .tagline {
+  display: block;
   font-size: 16px;
-  font-size: 1rem;
-  margin: 15px 0 0;
+  font-size: 1.1rem;
+  background-color: #031d4482; /* Semi-transparent black background */
+  padding: 10px 10px;
+  border-radius: 0px 0px 25px 25px; /* Optional rounded corners */
 }
 
 .profile-container {
@@ -293,16 +297,6 @@ a:hover {
   align-items: center;
   justify-content: center;
   /*overflow: hidden;*/
-}
-
-.video-container {
-  position: fixed; /* Ensures the video stays in place while scrolling */
-  top: 0;
-  left: 0;
-  height: 100%; /* Full height */
-  width: 100%;  /* Full width */
-  z-index: -1;  /* Places the video behind other content */
-  overflow: hidden;
 }
 
 .bg-video {
@@ -631,24 +625,34 @@ img {
 
 /* Pop-up content */
 .popup-content {
-  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  background-color: #04395E;
   padding: 20px;
   width: 920px;
   height: 480px;
   border-radius: 10px;
-  display: grid;
-  align-items: center;
-  position: relative;
   z-index: 10000; /* Ensure this is higher than the video iframe */
 }
 
+.popup-body {
+  display: flex; /* Makes video and text sit beside each other */
+  align-items: center; /* Vertically center the video and text */
+  justify-content: left; /* Centers both containers */
+  width: 100%; /* Full width of the popup */
+  height: 100%;
+}
+
 .popup-footer {
-  margin-top: 40px;
-  display: block;
+  display: inline-flex;
+  width: 95%;
   justify-content: space-between; /* Separate the link and icons */
   align-items: center;
+  margin-top: 25px;
   border-top: 1px solid #ccc;
-  padding-top: 15px;
+  padding-top: 10px;
 }
 
 .close-btn {
@@ -659,34 +663,46 @@ img {
   cursor: pointer;
 }
 
-.video-container {
-  margin-top: 15%;
+.youtube-container {
+  margin-left: 2%; /* Space between video and text */
+  margin-right: 6%;
 }
 
 .popup-text{
-  margin-top: 20px;
+  align-self: start;
+  margin-top: 4%;
+}
+.popup-text h2{
+  color: #A5BE00;
+}
+.popup-text p{
+  color: #EBF2FA;
 }
 
 .external-link {
-  margin-top: 20px;
-  text-align: right;
+  align-items: center;
+  text-align: left;
 }
-
 .external-link img {
-  width: 20px;
+  width: 24px;
   margin-right: 5px;
 }
 
 .tools {
-  display: inline-block;
-  width: 24px;
-  height: auto;
-  gap: 10px;
-  margin: 20px;
+  display: flex;
+  align-items: center;
+  text-align: left;
+  min-width: 35%;
+  font-weight: 300;
+  column-gap: 3%;
+  margin-left: 10px;
 }
-
 .tools img {
-  width: 40px;
+  width: 24px;
+  height: auto; /* Maintain aspect ratio */
+}
+.tools p{
+  margin: 0%;
 }
 
 /* Show the pop-up */
