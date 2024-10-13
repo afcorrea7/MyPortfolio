@@ -41,6 +41,8 @@ body {
   
 }
 .navbar-collapse {
+  display: flex;
+  flex-direction: row;
   -webkit-border-radius: 0;
   -webkit-background-clip: padding-box;
   -moz-border-radius: 0;
@@ -539,7 +541,6 @@ img {
 .portfolio-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr); /* 2 columns */
-  grid-template-rows: repeat(3, auto);   /* 3 rows */
   gap: 20px;                             /* Space between the blocks */
   padding: 20px;
 }
@@ -926,5 +927,19 @@ footer.entry-meta .meta-in {
 @media (min-width: 1200px) {
   .container {
     max-width: 1080px;
+  }
+}
+
+@media (max-width: 768px) {
+  .navbar-collapse .navbar-nav > li > a {
+    font-size: 10px;
+    font-size: 0.6575rem;
+    padding: 10px 15px;
+  }
+  .container {
+    max-width: 750px;
+  }
+  .portfolio-grid {
+    grid-template-columns: 1fr; /* 1 columns on smartphones */
   }
 }
