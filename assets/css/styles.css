@@ -225,6 +225,11 @@ a:hover {
   max-width: 100%;
   height: auto;
 }
+
+img, video {
+  max-width: 100%;
+  height: auto;
+}
 /*********************************************************************
 
 
@@ -541,8 +546,8 @@ img {
 
 /* Style for each project block */
 .project-block {
-  display: grid;                         /* Horizontal layout for gif and text */
-  align-items: center;
+  display: flex;
+  flex-direction: column;                         /* Horizontal layout for gif and text */
   text-align: center;
   border: 2px solid #679436;                /* Border around each block */
   border-radius: 5px;
@@ -560,7 +565,7 @@ img {
 /* Style for the GIF container */
 .gif-container {
   padding-top: 5%;
-  margin-left: 23%;
+  align-self: center;
   width: 250px;
   height: 250px;
   overflow: hidden;
