@@ -535,6 +535,7 @@ img {
 
 .aboutme-block {
   display: flex;
+  justify-content: space-around;
   align-items: center;
 }
 /* Layout for the portfolio grid */
@@ -881,10 +882,10 @@ footer.entry-meta .meta-in {
 
 **********************************************************************/
 #footer {
-  background: #232323;
-  padding: 30px 0 0 0;
-  font-size: 12px;
-  color: #999;
+  background: #110538;
+  padding: 30px 0 30px 0;
+  font-size: 0.7575rem;
+  color: #c5c5c5;
 }
 #footer a {
   color: #ccc;
@@ -917,10 +918,11 @@ footer.entry-meta .meta-in {
 }
 .follow-me-icons {
   font-size: 30px;
+  margin-bottom: 5%;
 }
 .follow-me-icons i {
   float: left;
-  margin: 0 10px 0 0;
+  margin: 0 2% 0 0;
 }
 /* Max page width
 /////////////////////////////////////////////////////////////////////*/
@@ -938,6 +940,19 @@ footer.entry-meta .meta-in {
   }
   .container {
     max-width: 750px;
+  }
+  .aboutme-block {
+    display: flex; 
+    flex-direction: column;
+    justify-content: center; /* Centers items horizontally */
+    align-items: center; /* Centers items vertically */
+    margin: 0 auto; /* Horizontally centers block element */
+  }
+
+  .aboutme-block .lead{
+    font-size: 10px;
+    font-size: 0.9875rem;
+    margin: 6%;
   }
   .portfolio-grid {
     grid-template-columns: 1fr; /* 1 columns on smartphones */
