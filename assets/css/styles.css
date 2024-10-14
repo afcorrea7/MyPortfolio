@@ -66,11 +66,8 @@ body {
   padding: 20px 30px;
 }
 .dropdown ul.dropdown-menu {
-  top: 85%;
+  background-color: #04395E;
   text-align: left;
-}
-.dropdown ul.dropdown-menu > li > a {
-  padding: 5px 30px;
 }
 .navbar-default {
   background-color: #052F5F;
@@ -91,10 +88,10 @@ body {
   background-color: #052F5F;
 }
 .navbar-default .dropdown ul.dropdown-menu > li > a {
-  color: #454545;
+  color: #EBF2FA;
 }
 .navbar-default .dropdown ul.dropdown-menu > li > a:hover {
-  background-color: #EBF2FA;
+  background-color: #052F5F;
   color: #EBF2FA;
 }
 .navbar-default .navbar-toggle {
@@ -114,8 +111,8 @@ body {
 .navbar-default .navbar-nav > .open > a,
 .navbar-default .navbar-nav > .open > a:hover,
 .navbar-default .navbar-nav > .open > a:focus {
-  background-color: #EBF2FA;
-  color: #000000;
+  background-color: #04395E;
+  color: #A5BE00;
 }
 /****************************************************************************************
 
@@ -672,18 +669,24 @@ img {
 
 .youtube-container {
   margin-left: 2%; /* Space between video and text */
-  margin-right: 6%;
+  margin-right: 4%;
+}
+.youtube-container iframe{
+  width: 400px; 
+  height: 300px; 
 }
 
 .popup-text{
   align-self: start;
-  margin-top: 4%;
+  font-weight: 300;
+  margin-top: 1%;
 }
 .popup-text h2{
   color: #A5BE00;
 }
 .popup-text p{
   color: #EBF2FA;
+  font-size: 14px;
 }
 
 .external-link {
@@ -935,9 +938,19 @@ footer.entry-meta .meta-in {
 @media (max-width: 768px) {
   .navbar-collapse .navbar-nav > li > a {
     font-size: 10px;
-    font-size: 0.6575rem;
+    font-size: 0.7575rem;
     padding: 10px 15px;
   }
+
+  .navbar-default .navbar-nav .open .dropdown-menu>li>a {
+    color: #EBF2FA;
+  }
+
+  .navbar-default .navbar-nav .open .dropdown-menu>li>a:hover  {
+    background-color: #031D44;
+    color: #EBF2FA;
+  }
+
   .container {
     max-width: 750px;
   }
@@ -956,5 +969,29 @@ footer.entry-meta .meta-in {
   }
   .portfolio-grid {
     grid-template-columns: 1fr; /* 1 columns on smartphones */
+  }
+
+  .popup-content{
+    width: 480px;
+    height: 650px;
+  }
+  .popup-body{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .youtube-container iframe{
+    width: 275px; 
+    height: 175px; 
+  }
+
+  .popup-text p{
+    margin: 0;
+    align-self: start;
+    font-size: 0.7875rem;
+  }
+  .popup-text h2{
+    margin-top: 0;
+    font-size: 1.3575rem;
   }
 }
