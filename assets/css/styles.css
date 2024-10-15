@@ -242,12 +242,12 @@ img, video {
   color: hsl(262, 100%, 54%);
 }
 #head img.img-circle {
-  display: block;
-  width: 140px;
-  height: 140px;
+  display: block; 
+  width: 150px;
+  height: 150px;
   overflow: hidden;
-  border: 9px #031d4482;
-  margin: 15px auto;
+  border: 9px solid #031d4482;
+  margin: 10px auto;
 }
 #head .title {
   font-family: "Outfit", Georgia, serif;
@@ -256,7 +256,8 @@ img, video {
   color: #ffffff;
   background-color: #031d4482; /* Semi-transparent black background */
   padding: 10px 50px;
-  border-radius: 5px 5px 35px 35px; /* Optional rounded corners */
+  margin-top: 5%;
+  border-radius: 5px 5px 5px 5px; /* Optional rounded corners */
 }
 #head .title a {
   text-decoration: none;
@@ -289,7 +290,7 @@ img, video {
   font-size: 1.1rem;
   background-color: #031d4482; /* Semi-transparent black background */
   padding: 10px 10px;
-  border-radius: 0px 0px 25px 25px; /* Optional rounded corners */
+  border-radius: 5px 5px 5px 5px; /* Optional rounded corners */
 }
 
 .profile-container {
@@ -732,7 +733,7 @@ img {
   display: block;
   width: 100%;
   overflow: hidden;
-  margin: 0px 0 25px;
+  margin: 75px 0 20px;
   text-align: center;
   font-weight: 300;
   text-transform: uppercase;
@@ -885,24 +886,23 @@ footer.entry-meta .meta-in {
 
 **********************************************************************/
 #footer {
-  background: #110538;
+  background: #679436;
   padding: 30px 0 30px 0;
-  font-size: 0.7575rem;
-  color: #c5c5c5;
+  font-size: 1.0575rem;
+  color: #031D44;
 }
 #footer a {
-  color: #ccc;
+  color: #031D44;
 }
 #footer a:hover {
   color: #fff;
 }
-#footer h3.widget-title {
-  font-size: 15px;
-  font-size: 0.9375rem;
-  text-transform: uppercase;
-  color: #ccc;
+#footer h2.widget-title {
+  font-weight: 500;
+  color: #031D44;
   margin: 0 0 20px;
 }
+
 #underfooter {
   background: #191919;
   padding: 10px 0;
@@ -925,7 +925,7 @@ footer.entry-meta .meta-in {
 }
 .follow-me-icons i {
   float: left;
-  margin: 0 2% 0 0;
+  margin-right: 5%;
 }
 /* Max page width
 /////////////////////////////////////////////////////////////////////*/
@@ -981,8 +981,8 @@ footer.entry-meta .meta-in {
   }
 
   .youtube-container iframe{
-    width: 275px; 
-    height: 175px; 
+    width: 280px; 
+    height: 180px; 
   }
 
   .popup-text p{
@@ -994,4 +994,15 @@ footer.entry-meta .meta-in {
     margin-top: 0;
     font-size: 1.3575rem;
   }
-}
+
+  #footer {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+  }
+
+  #footer .follow-me-icons {
+    display: flex;
+    justify-content: space-around;
+  }
+} 
