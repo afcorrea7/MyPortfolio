@@ -38,8 +38,86 @@ jQuery(document).ready(function($) {
 });
 
 //For projects detailing more info on-click
-function openPopup(popupId) {
-	document.getElementById(popupId).classList.add('show-popup');
+function openPopupESP(popupId) {
+    //Fetch the JSON file
+    fetch('../assets/json/projects-es.json')
+        .then(response => response.json())
+        .then(data => {
+            //Find the relevant popup data by ID
+            const popupData = data.popups.find(popup => popup.id === popupId);
+            
+			//Select all popup titles and descriptions
+			const titles = document.querySelectorAll('.popup-title');
+			const descriptions = document.querySelectorAll('.popup-description');
+			const usesLists = document.querySelectorAll('.popup-useslist');
+
+			//Clear previous content by class
+			titles.forEach(title => title.innerText = '');
+			descriptions.forEach(description => description.innerText = '');
+			usesLists.forEach(useslist => useslist.innerText = '');
+
+			//Insert the popup content into the HTML for the current popup only
+			const currentTitle = document.querySelector(`#${popupId} .popup-title`);
+			const currentDescription = document.querySelector(`#${popupId} .popup-description`);
+			const currentUsesList = document.querySelector(`#${popupId} .popup-useslist`);
+
+			if (currentTitle) {
+				currentTitle.innerText = popupData.title;
+			}
+			if (currentDescription) {
+				currentDescription.innerText = popupData.description;
+				currentDescription.innerHTML = popupData.description.replace(/\n/g, "<br>");
+			}
+			if (currentUsesList) {
+				currentUsesList.innerText = popupData.useslist;
+				currentUsesList.innerHTML = popupData.useslist.replace(/\n/g, "<br>");
+			}
+            
+            //Show the popup (assuming you have some show/hide logic)
+            document.getElementById(popupId).classList.add('show-popup');
+        })
+        .catch(error => console.error('Error loading popup content:', error));
+}
+
+function openPopupENG(popupId){
+	// Fetch the JSON file
+	fetch('projects-en.json')
+	.then(response => response.json())
+	.then(data => {
+		//Find the relevant popup data by ID
+		const popupData = data.popups.find(popup => popup.id === popupId);
+		
+		//Select all popup titles and descriptions
+		const titles = document.querySelectorAll('.popup-title');
+		const descriptions = document.querySelectorAll('.popup-description');
+		const usesList = document.querySelectorAll('.popup-useslist');
+
+		//Clear previous content by class
+		titles.forEach(title => title.innerText = '');
+		descriptions.forEach(description => description.innerText = '');
+		usesList.forEach(usesList => usesList.innerText = '');
+
+		//Insert the popup content into the HTML for the current popup only
+		const currentTitle = document.querySelector(`#${popupId} .popup-title`);
+		const currentDescription = document.querySelector(`#${popupId} .popup-description`);
+		const currentUsesList = document.querySelector(`#${popupId} .popup-useslist`);
+
+		if (currentTitle) {
+			currentTitle.innerText = popupData.title;
+		}
+		if (currentDescription) {
+			currentDescription.innerText = popupData.description;
+			currentDescription.innerHTML = popupData.description.replace(/\n/g, "<br>");
+		}
+		if (currentUsesList) {
+			currentUsesList.innerText = popupData.usesList;
+			currentUsesList.innerHTML = popupData.usesList.replace(/\n/g, "<br>");
+		}
+		
+		//Show the popup (assuming you have some show/hide logic)
+		document.getElementById(popupId).classList.add('show-popup');
+	})
+	.catch(error => console.error('Error loading popup content:', error));
 }
   
   function closePopup(popupId) {

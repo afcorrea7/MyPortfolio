@@ -1,0 +1,64 @@
+{
+    "popups": [
+        {
+            "id": "HUP_POPUP",
+            "title": "Habia un Pueblo",
+            "description": "En este videojuego el jugador puede explorar el mundo de diferentes formas, interactuando con otros personajes, resolviendo puzles y superando minijuegos. En este proyecto me encargué de programar todos los aspectos del juego, desde la lógica de los minijuegos hasta la interfaz de usuario.",
+            "useslist": "Los conocimientos que apliqué para este proyecto incluyen:\n   • Uso del New Input System.\n   • Implementación del terreno con Rule Tiles.\n  • Sistema de diálogos por medio de Scriptable Objects."
+        },
+        {
+            "id": "VHS_POPUP",
+            "title": "Video Horror Story (VHS)",
+            "description": "This is the description for popup 2. It can be different from popup 1.",
+            "useslist": "Los conocimientos que apliqué para este proyecto incluyen:"
+        },
+        {
+            "id": "HR_POPUP",
+            "title": "Hamster Roller",
+            "description": "Here is the description for popup 3. You can easily add more popups.",
+            "useslist": "Los conocimientos que apliqué para este proyecto incluyen:"
+        },
+        {
+            "id": "LDSLN_POPUP",
+            "title": "Los Duendes Salvan la Navidad",
+            "description": "I see...",
+            "useslist": "Los conocimientos que apliqué para este proyecto incluyen:"
+        },
+        {
+            "id": "NMA_POPUP",
+            "title": "No Más Alergias",
+            "description": "I see...",
+            "useslist": "Los conocimientos que apliqué para este proyecto incluyen:"
+        },
+        {
+            "id": "RM_POPUP",
+            "title": "Robot Mafia",
+            "description": "I see...",
+            "useslist": "Los conocimientos que apliqué para este proyecto incluyen:"
+        },
+        {
+            "id": "LaIA_POPUP",
+            "title": "LaIA",
+            "description": "From chamba",
+            "useslist": "Los conocimientos que apliqué para este proyecto incluyen:"
+        },
+        {
+            "id": "AgenciaUAO_POPUP",
+            "title": "Reel La Agencia UAO",
+            "description": "From chamba",
+            "useslist": "Los conocimientos que apliqué para este proyecto incluyen:"
+        },
+        {
+            "id": "CincuentaAnos_POPUP",
+            "title": "Video caso 50 Años UAO",
+            "description": "From Chamba",
+            "useslist": "Los conocimientos que apliqué para este proyecto incluyen:"
+        },
+        {
+            "id": "Estudian_POPUP",
+            "title": "Estundiantinas Reels",
+            "description": "From Chamba",
+            "useslist": "Los conocimientos que apliqué para este proyecto incluyen:"
+        }
+    ]
+}

@@ -650,6 +650,10 @@ img {
   height: 100%;
 }
 
+.popup-description p{
+  margin-bottom: 12%;
+}
+
 .popup-footer {
   display: inline-flex;
   width: 95%;
@@ -679,7 +683,7 @@ img {
 
 .popup-text{
   align-self: start;
-  font-weight: 300;
+  font-weight: 350;
   margin-top: 1%;
 }
 .popup-text h2{
@@ -688,6 +692,7 @@ img {
 .popup-text p{
   color: #EBF2FA;
   font-size: 14px;
+  margin: 0 0 15px 0;
 }
 
 .external-link {
@@ -695,7 +700,7 @@ img {
   text-align: left;
 }
 .external-link img {
-  width: 24px;
+  width: 28px;
   margin-right: 5px;
 }
 
@@ -709,7 +714,7 @@ img {
   margin-left: 10px;
 }
 .tools img {
-  width: 24px;
+  width: 28px;
   height: auto; /* Maintain aspect ratio */
 }
 .tools p{
@@ -927,8 +932,14 @@ footer.entry-meta .meta-in {
   float: left;
   margin-right: 5%;
 }
-/* Max page width
-/////////////////////////////////////////////////////////////////////*/
+
+/*********************************************************************
+
+
+                              MEDIA RESPONSIVE
+
+
+**********************************************************************/
 @media (min-width: 1200px) {
   .container {
     max-width: 1080px;
@@ -986,13 +997,12 @@ footer.entry-meta .meta-in {
   }
 
   .popup-text p{
-    margin: 0;
     align-self: start;
-    font-size: 0.7875rem;
+    font-size: 0.8875rem;
   }
   .popup-text h2{
     margin-top: 0;
-    font-size: 1.3575rem;
+    font-size: 1.8575rem;
   }
 
   #footer {
