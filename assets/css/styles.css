@@ -729,12 +729,11 @@ img {
 /*********************************************************************
 
 
-                                 BLOG
+                             SECTIONS TITLE
 
 
 **********************************************************************/
-.section-title,
-.entry-title {
+.section-title {
   display: block;
   width: 100%;
   overflow: hidden;
@@ -747,19 +746,15 @@ img {
   color: #A5BE00;
   letter-spacing: 1px;
 }
-.section-title a,
-.entry-title a {
+.section-title a {
   color: #333333;
 }
-.section-title span,
-.entry-title span {
+.section-title span {
   display: inline-block;
   position: relative;
 }
 .section-title span:before,
-.entry-title span:before,
-.section-title span:after,
-.entry-title span:after {
+.section-title span:after {
   content: "";
   position: absolute;
   height: 5px;
@@ -767,121 +762,15 @@ img {
   width: 400%;
   border-bottom: 2px solid #A5BE00;
 }
-.section-title span:before,
-.entry-title span:before {
+.section-title span:before {
   right: 100%;
   margin-right: 45px;
 }
-.section-title span:after,
-.entry-title span:after {
+.section-title span:after {
   left: 100%;
   margin-left: 45px;
 }
-.entry-header .entry-meta {
-  text-align: center;
-  font-family: Georgia, serif;
-  font-size: 18px;
-  font-size: 1.125rem;
-  font-style: italic;
-  font-weight: normal;
-  color: #a5a5a5;
-  margin: 0 0 15px 0;
-}
-.entry-header .entry-meta a {
-  color: #a5a5a5;
-}
-.entry-content {
-  margin: 0 0 60px 0;
-}
-.entry-content h2 {
-  line-height: 1.2;
-  font-size: 30px;
-  font-size: 1.875rem;
-  padding-top: 20px;
-  margin-bottom: 20px;
-}
-.meta-nav,
-.more-link {
-  font-family: Georgia, serif;
-  font-style: italic;
-  font-weight: bold;
-  color: #666666;
-  text-decoration: none;
-}
-.meta-nav:hover,
-.more-link:hover {
-  color: #333333;
-  text-decoration: underline;
-}
-.more-link {
-  display: block;
-  width: 100%;
-  text-align: right;
-}
-/* Posts navigation */
-#nav-below {
-  position: fixed;
-  top: 48%;
-}
-#nav-below .meta-nav {
-  display: block;
-  padding: 27px 7px;
-  background: #444;
-  color: #fff;
-  -webkit-border-radius: 3px;
-  -webkit-background-clip: padding-box;
-  -moz-border-radius: 3px;
-  -moz-background-clip: padding;
-  border-radius: 3px;
-  background-clip: padding-box;
-  font-family: "Outfit", Helvetica, Arial, sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  text-decoration: none;
-  opacity: 0.2;
-}
-#nav-below .meta-nav:hover {
-  text-decoration: none;
-  color: #333;
-}
-#nav-below .nav-next {
-  position: fixed;
-  right: -3px;
-}
-#nav-below .nav-previous {
-  position: fixed;
-  left: -3px;
-}
-#nav-below b {
-  display: none;
-}
-footer.entry-meta {
-  border-top: 1px solid #ccc;
-  border-bottom: 1px solid #ccc;
-  margin: 0 0 35px 0;
-  padding: 2px 0;
-  color: #888888;
-  font-size: 12px;
-  font-size: 0.75rem;
-}
-footer.entry-meta a {
-  color: #333333;
-}
-footer.entry-meta .meta-in {
-  border-top: 1px solid #ccc;
-  border-bottom: 1px solid #ccc;
-  padding: 10px 0;
-}
-.page-header {
-  padding-bottom: 0;
-  margin: 0;
-  border-bottom: none;
-  text-align: left;
-}
-.page-header .page-title {
-  margin-top: 0;
-  margin-bottom: 30px;
-}
+
 
 /*********************************************************************
 
