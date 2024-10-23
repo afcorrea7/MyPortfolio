@@ -40,7 +40,7 @@ jQuery(document).ready(function($) {
 //For projects detailing more info on-click
 function openPopupESP(popupId) {
     //Fetch the JSON file
-    fetch('../assets/json/projects-es.json')
+    fetch('assets/json/projects-es.json')
         .then(response => response.json())
         .then(data => {
             //Find the relevant popup data by ID
@@ -81,7 +81,7 @@ function openPopupESP(popupId) {
 
 function openPopupENG(popupId){
 	// Fetch the JSON file
-	fetch('projects-en.json')
+	fetch('assets/json/projects-en.json')
 	.then(response => response.json())
 	.then(data => {
 		//Find the relevant popup data by ID
