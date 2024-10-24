@@ -111,7 +111,7 @@ function openPopupENG(popupId){
 		}
 		if (currentUsesList) {
 			currentUsesList.innerText = popupData.usesList;
-			currentUsesList.innerHTML = popupData.usesList.replace(/\n/g, "<br>");
+			currentUsesList.innerHTML = popupData.useslist.replace(/\n/g, "<br>");
 		}
 		
 		//Show the popup (assuming you have some show/hide logic)
