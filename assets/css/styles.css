@@ -37,7 +37,7 @@ body {
   position: fixed;
   top: 0;
   left: 0;
-  opacity: .85;
+  opacity: .95;
   
 }
 .navbar-collapse {
@@ -66,12 +66,12 @@ body {
   padding: 20px 30px;
 }
 .dropdown ul.dropdown-menu {
-  background-color: #04395E;
+  background-color: #031D44;
   text-align: left;
 }
 .navbar-default {
-  background-color: #052F5F;
-  border-color: #052F5F;
+  background-color: #031D44;
+  border-color: #031D44;
 }
 .navbar-default .navbar-nav > li > a {
   color: #EBF2FA;
@@ -79,19 +79,19 @@ body {
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
   color: #A5BE00;
-  background-color: #052F5F;
+  background-color: #031D44;
 }
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
   color: #EBF2FA;
-  background-color: #052F5F;
+  background-color: #031D44;
 }
 .navbar-default .dropdown ul.dropdown-menu > li > a {
   color: #EBF2FA;
 }
 .navbar-default .dropdown ul.dropdown-menu > li > a:hover {
-  background-color: #052F5F;
+  background-color: #031D44;
   color: #EBF2FA;
 }
 .navbar-default .navbar-toggle {
@@ -111,7 +111,7 @@ body {
 .navbar-default .navbar-nav > .open > a,
 .navbar-default .navbar-nav > .open > a:hover,
 .navbar-default .navbar-nav > .open > a:focus {
-  background-color: #04395E;
+  background-color: #031D44;
   color: #A5BE00;
 }
 /****************************************************************************************
@@ -207,7 +207,8 @@ a:hover {
   font-size: 21px;
   font-size: 1.1125rem;
   color: #EBF2FA;
-  margin-right: 30%;
+  margin-top: 2%;
+  margin-right: 20%;
 }
 .text-msg {
   line-height: 1.7em;

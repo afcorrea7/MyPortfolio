@@ -4,31 +4,31 @@
             "id": "HUP_POPUP",
             "title": "Habia un Pueblo",
             "description": "In this videogame the player explores to find myths and legends from Colombia's culture, interacting with other characters, solving puzzles and beating minigames. I coded all this project's features, from minigame logic to user interface.",
-            "useslist": "Applied practical knowledge in this project include:\n   • Use of Unity's New Input System.\n   • Terrain generation with Rule Tiles.\n   • Dialogue system with Scriptable Objects.\n   • OOP concepts such as abstraction and inheritance."
+            "useslist": "Applied practical knowledge in this project includes:\n   • Use of Unity's New Input System.\n   • Terrain generation with Rule Tiles.\n   • Dialogue system with Scriptable Objects.\n   • OOP concepts such as abstraction and inheritance."
         },
         {
             "id": "VHS_POPUP",
             "title": "Video Horror Story (VHS)",
             "description": "A short project where the player explores a house full of disturbing shadows, which they can defend from by chucking a variety of objects such as lamps or plates. For this project, I was in charge of programming some interactions between the world and the player, like grabbing and throwing objects.",
-            "useslist": "Applied practical knowledge in this project include:\n   • 3D physics.\n   • Navigation meshes.\n   • Prefabs variants."
+            "useslist": "Applied practical knowledge in this project includes:\n   • 3D physics.\n   • Navigation meshes.\n   • Prefabs variants."
         },
         {
             "id": "HR_POPUP",
             "title": "Hamster Roller",
             "description": "A platformer in which the player controls a hamster that can change its shape to traverse obstacles and collect sunflower seeds. I programmed the mechanic involving changing shapes, as well as the collectables' logic and win and lose conditions.",
-            "useslist": "Applied practical knowledge in this project include:\n   • State machines pattern.\n   • Blend Trees use.\n   • Prefabs use."
+            "useslist": "Applied practical knowledge in this project includes:\n   • State machines pattern.\n   • Blend Trees use.\n   • Prefabs use."
         },
         {
             "id": "LDSLN_POPUP",
             "title": "Los Duendes Salvan la Navidad",
             "description": "A short arcade-like game in which the player chases and collects elves to increase their gift counter and avoid running out of time. For this project, I was in charge of programming the player's and the elves' movement, as well as the game's main mechanics.",
-            "useslist": "Applied practical knowledge in this project include:\n   • Use of Prefabs variants.\n   • Terrain generation with Rule Tiles.\n   • Blend Trees use."
+            "useslist": "Applied practical knowledge in this project includes:\n   • Use of Prefabs variants.\n   • Terrain generation with Rule Tiles.\n   • Blend Trees use."
         },
         {
             "id": "NMA_POPUP",
             "title": "No Más Alergias",
             "description": "An educational game for browser or Android devices that I developed during my time as an intern in La Agencia UAO (an advertising agency), for the pharma company Inmunotek. The game's purpose is to explain to children what allergies are and how to treat them with immunotherapy.",
-            "useslist": "Applied practical knowledge in this project include:\n   • Singleton pattern.\n   • Animator Override Controllers use.\n   • Drag and Drop interfaces implementation."
+            "useslist": "Applied practical knowledge in this project includes:\n   • Singleton pattern.\n   • Animator Override Controllers use.\n   • Drag and Drop interfaces implementation."
         },
         {
             "id": "RM_POPUP",
@@ -40,25 +40,25 @@
             "id": "LaIA_POPUP",
             "title": "LaIA",
             "description": "LaIA is a university advertising campaign which I contributed to during my time as an intern in La Agencia UAO (an advertising agency). My contributions consisted of animating the mascot for the campaign in a variety of situations. The mascot had a presence in both longer form videos and short advertising animations.",
-            "useslist": "Applied practical knowledge in this project include:\n   • Animating in After Effects.\n   • Lip Syncing.\n   • Using Illustrator and After Effects dynamically."
+            "useslist": "Applied practical knowledge in this project includes:\n   • Animating in After Effects.\n   • Lip Syncing.\n   • Using Illustrator and After Effects dynamically."
         },
         {
             "id": "Fundautonoma_POPUP",
             "title": "Sentidos FundAutónoma",
             "description": "A set of two commercials that I worked on during my time as an intern, for the nonprofit organization created by the university of Autónoma de Occidente. I had the privilege of visiting the organization myself to direct and film the second commercial, as well as direct the voice over for it.",
-            "useslist": "Applied practical knowledge in this project include:\n   • Rotobrush in After Effects.\n   • Audio recording with Avid Pro Tools.\n   • Dynamic link use with Premiere Pro and After Effects.\n"
+            "useslist": "Applied practical knowledge in this project includes:\n   • Rotobrush in After Effects.\n   • Audio recording with Avid Pro Tools.\n   • Dynamic link use with Premiere Pro and After Effects.\n"
         },
         {
             "id": "AgenciaUAO_POPUP",
             "title": "Reel La Agencia UAO",
             "description": "A video I edited presenting the services, products and clients of La Agencia UAO, the advertising agency where I had my internship.",
-            "useslist": "Applied practical knowledge in this project include:\n   • After Effects' 3D Camera.\n   • Music and video sync in Premiere Pro.\n   • Dynamic link use with Premiere Pro and After Effects."
+            "useslist": "Applied practical knowledge in this project includes:\n   • After Effects' 3D Camera.\n   • Music and video sync in Premiere Pro.\n   • Dynamic link use with Premiere Pro and After Effects."
         },
         {
             "id": "CincuentaAnos_POPUP",
             "title": "Video caso 50 Años UAO",
             "description": "A case-study video I worked on during my time as an intern in La Agencia UAO, the university of Autónoma de Occidente's advertising agency. The video takes a deep dive into the process that took part to design the branding for the university's 50-year anniversary.",
-            "useslist": "Applied practical knowledge in this project include:\n   • Use of After Effects' motion blur.\n   • Text animation in After Effects.\n   • Dynamic link use with Premiere Pro and After Effects."
+            "useslist": "Applied practical knowledge in this project includes:\n   • Use of After Effects' motion blur.\n   • Text animation in After Effects.\n   • Dynamic link use with Premiere Pro and After Effects."
         }
     ]
 }
