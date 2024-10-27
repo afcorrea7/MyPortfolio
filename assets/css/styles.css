@@ -226,6 +226,11 @@ a:hover {
   height: auto;
 }
 
+.highlight-text {
+  color:#A5BE00;
+  font-weight: bold;
+}
+
 img, video {
   max-width: 100%;
   height: auto;
