@@ -546,7 +546,8 @@ img {
 .portfolio-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr); /* 2 columns */
-  gap: 20px;                             /* Space between the blocks */
+  width: 100%;
+  gap: 40px;                             /* Space between the blocks */
   padding: 20px;
   justify-content: center;
 }
@@ -558,8 +559,7 @@ img {
   text-align: center;
   border: 2px solid #679436;                /* Border around each block */
   border-radius: 5px;
-  padding: 15px;
-  margin: 10px;
+  box-sizing: border-box;
   transition: transform 0.3s ease, background-color 0.3s ease;
 }
 
@@ -574,9 +574,9 @@ img {
   display: flex;
   align-self: center;
   justify-content: center;
-  padding-top: 5%;
-  width: 426px;
-  height: 240px;
+  padding: 5%;
+  width: 100%;
+  height: auto;
   overflow: hidden;
 }
 
@@ -603,7 +603,6 @@ img {
 /* Project title */
 .project-info h2 {
   margin: 0;
-  padding-top: 15px;
   font-size: 1.6em;
   color: #A5BE00;
 }
@@ -611,6 +610,7 @@ img {
 /* Project description */
 .project-info p {
   margin: 5px 0 0;
+  padding-bottom: 20px;
   font-size: 1em;
   font-weight: 200;
   color: #EBF2FA;
