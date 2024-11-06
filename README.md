@@ -1,32 +1,25 @@
-Initio - Free, multipurpose html5 template
+Welcome to my Portofolio Repository
 =============
 
-Initio is a fully featured html5 theme which will help you create a stylish personal or company site. 
-6 page layout templates should cover all your development needs. 
-Font Awesome 4, parallax effects and more are included (but can be turned off of course)
-
-
-License
--------
-**Creative Commons Attribution 3.0** - http://creativecommons.org/licenses/by/3.0/
-
-
-Bug tracker
------------
-
-Found a bug? Please create an issue here on GitHub! 
-https://github.com/pozh/Initio/issues
-
-
+In this repository you'll find the files that make the page work, hosted through Github Pages.
+Feel free to dig around.
 
 Credits
 -------
-* Design and development: **Sergey Pozhilov** - http://pozhilov.com
-* More free templates by Sergey: http://gettemplate.com
+The page was made from a template called Initio by Sergey Pozhilov:
+https://www.gettemplate.com/demo/initio/
+http://pozhilov.com
 
-Photos used in the template
+=============
+
+Bienvenido al Repositorio de mi Portafolio
+=============
+
+En este repositorio encontrarás los archivos que hacen que la página funcione, alojado en Github Pages.
+Sientete libre de explorar.
+
+Créditos
 -------
-* http://www.publicdomainpictures.net/view-image.php?image=19999
-* http://www.publicdomainpictures.net/view-image.php?image=6354
-* http://imcreator.com/free/business/macbook-computer
-* http://unsplush.com
+La página fue hecha a partir de una plantilla llamada Initio por Sergey Pozhilov:
+https://www.gettemplate.com/demo/initio/
+http://pozhilov.com
