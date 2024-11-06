@@ -2,7 +2,7 @@
     "popups": [
         {
             "id": "HUP_POPUP",
-            "title": "Habia un Pueblo",
+            "title": "Había un Pueblo",
             "description": "In this videogame the player explores to find myths and legends from Colombia's culture, interacting with other characters, solving puzzles and beating minigames. I coded all this project's features, from minigame logic to user interface.",
             "useslist": "Applied practical knowledge in this project includes:\n   • Use of Unity's New Input System.\n   • Terrain generation with Rule Tiles.\n   • Dialogue system with Scriptable Objects.\n   • OOP concepts such as abstraction and inheritance."
         },
@@ -43,7 +43,7 @@
             "useslist": "Applied practical knowledge in this project includes:\n   • Animating in After Effects.\n   • Lip Syncing.\n   • Using Illustrator and After Effects dynamically."
         },
         {
-            "id": "Fundautonoma_POPUP",
+            "id": "Fundautónoma_POPUP",
             "title": "Sentidos FundAutónoma",
             "description": "A set of two commercials that I worked on during my time as an intern, for the nonprofit organization created by the university of Autónoma de Occidente. I had the privilege of visiting the organization myself to direct and film the second commercial, as well as direct the voice over for it.",
             "useslist": "Applied practical knowledge in this project includes:\n   • Rotobrush in After Effects.\n   • Audio recording with Avid Pro Tools.\n   • Dynamic link use with Premiere Pro and After Effects.\n"

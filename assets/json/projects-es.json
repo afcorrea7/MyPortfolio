@@ -2,7 +2,7 @@
     "popups": [
         {
             "id": "HUP_POPUP",
-            "title": "Habia un Pueblo",
+            "title": "Había un Pueblo",
             "description": "En este videojuego el jugador explora para capturar distintos mitos y leyendas de la cultura colombiana, interactuando con otros personajes, resolviendo puzles y superando minijuegos. En este proyecto me encargué de programar todos los aspectos del juego, desde la lógica de los minijuegos hasta la interfaz de usuario.",
             "useslist": "Los conocimientos que apliqué para este proyecto incluyen:\n   • Uso del New Input System.\n   • Implementación del terreno con Rule Tiles.\n   • Sistema de diálogos por medio de Scriptable Objects.\n   • Conceptos de POO como la abstracción y herencia."
         },
@@ -43,7 +43,7 @@
             "useslist": "Los conocimientos que apliqué para este proyecto incluyen:\n   • Animación en After Effects.\n   • Lip Sync.\n   • Uso dinámico entre Illustrator y After Effects."
         },
         {
-            "id": "Fundautonoma_POPUP",
+            "id": "Fundautónoma_POPUP",
             "title": "Sentidos FundAutónoma",
             "description": "Una serie de dos comerciales que desarrollé para la organización sin ánimo de lucro creada por la universidad Autónoma de Occidente. Tuve el privilegio de visitar la fundación para filmar y dirigir las tomas del segundo comercial y de incluso dirigir su voz en off.",
             "useslist": "Los conocimientos que apliqué para este proyecto incluyen:\n   • Rotobrush de After Effects.\n   • Grabación de audio con Avid Pro Tools.\n   • Uso de Dynamic Link entre Premiere Pro y After Effects.\n"
