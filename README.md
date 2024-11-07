@@ -1,4 +1,4 @@
-Welcome to my Portofolio Repository
+Welcome to my Portfolio Repository
 =============
 
 In this repository you'll find the files that make the page work, hosted through Github Pages.
