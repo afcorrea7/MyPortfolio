@@ -33,7 +33,7 @@
         {
             "id": "RM_POPUP",
             "title": "Robot Mafia",
-            "description": "Un proyecto que me encuentro desarrollando actualmente. El plan es aprovechar las funcionalidades del Cinemachine de Unity para diseñar puzles interesantes en las que el jugador emplea varios ángulos de visión para superar los niveles.",
+            "description": "Un proyecto que estamos desarrollando actualmente. Se trata de un juego de puzles y acción en el que el jugador usa reflejos y ángulos para rebotar sus proyectiles y eliminar enemigos.",
             "useslist": " "
         },
         {

@@ -33,7 +33,7 @@
         {
             "id": "RM_POPUP",
             "title": "Robot Mafia",
-            "description": "A work in progress that I am currently developing. We plan to take advantage of Unity's Cinemachine to design interesting puzzles where the player will use many camera angles to beat the game.",
+            "description": "A game we are currently working on. It’s a puzzles and action game in which the player uses reflections and angles in order to bounce their projectiles to eliminate enemies.",
             "useslist": " "
         },
         {
