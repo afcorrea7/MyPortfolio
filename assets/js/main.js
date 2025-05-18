@@ -1,4 +1,26 @@
-jQuery(document).ready(function($) {
+document.addEventListener('DOMContentLoaded', () => {
+
+	const video = document.querySelector('.bg-video');
+	const placeholder = document.querySelector('.bg-video-placeholder');
+
+	function hidePlaceHolder(){ //hide image, show video
+		video.muted = true;
+		video.play();
+		placeholder.style.display = 'none';
+	}
+
+	if (video && placeholder) {
+		//check if video has loaded its first frame
+		if(video.readyState >= 2){
+			hidePlaceHolder();
+			console.log('loaded video through readyState');
+		}else{
+			video.addEventListener('loadeddata', () => {
+				hidePlaceHolder();
+				console.log('loadeddata fired');
+			})
+		}
+	}
 
 	var my_nav = $('.navbar-sticky'); 
 	//grab the initial top offset of the navigation 
