@@ -15,10 +15,9 @@
 	<!-- Icons -->
 	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
 	<!-- Fonts -->
-	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Alice|Open+Sans:400,300,700">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Grandstander:ital,wght@0,100..900;1,100..900&family=Lexend:wght@100..900&family=Outfit:wght@100..900&display=swap" rel="stylesheet">
 	<!-- Custom styles -->
 	<link rel="stylesheet" href="assets/css/styles.css">
 
@@ -28,8 +27,7 @@
 <!----------------------------------------------------------------------------------------------------------------------------------------->
 
 <body class="home">
-<header id="header">
-	<nav class="navbar navbar-default navbar-sticky">
+	<nav class="navbar navbar-default">
 		<div class="container-fluid">
 			<div class="navbar-collapse collapse">
 				<ul class="nav navbar-nav">
@@ -49,6 +47,7 @@
 			</div><!--/.nav-collapse -->			
 		</div>	
 	</nav>
+<header id="header">
 	<section id="head" class = "profile-container">
 		<img src="assets/images/LoadinPlaceHolder.png" class="bg-video-placeholder">
 		<video  class="parallax bg-video" parallax-speed="2" muted loop playsinline>
@@ -63,26 +62,31 @@
 </header>
 	
 <main id="main">
-
+	<div class="blob-container">
+		<div class="blob blob-left"></div>
+		<div class="blob blob-right blob-big"></div>
+		<div class="blob blob-left blob-big"></div>
+		<div class="blob blob-right"></div>
+	</div>
 	<div class="container">
 		<div class="row section topspace">
-			<h2 class="section-title"><span>About Me</span></h2>
+			<h2 class="section-title"><span>About me</span></h2>
 			<div class="aboutme-block">
 				<p class="lead">Hi, I'm Andrés, a resourceful person and someone that loves to learn, and also a <span class=highlight-text>multimedia engineer.</span>
 					 My title means that I possess skills in a variety of creative digital media that I'm very passionate about like <span class=highlight-text>
 						game development, video production</span> or even creating <span class=highlight-text>web pages</span> such as the one you are seeing right now.<br>  
 					<br>In this portfolio you will find projects I have contributed to. In every single one I have been part of a team that brought their talent to the table, 
-					and it is exactly that <span class=highlight-text>collaboration and teamwork</span> what allowed these projects to be possible.<br>
-					<h3>Welcome!</h3>			 
+					and it is exactly that <span class=highlight-text>collaboration and teamwork</span> what allowed these projects to be possible.<br>			 
 				</p>
-				
+				<div class="terminalAnim">
+					 <span class="prompt">> </span> <span id="typed-text">Welcome!</span> <span class="cursor"></span>
+				</div>
 			</div>
 			
 		</div> <!-- / section -->
-		
+			
 		<!-- /Start of Projects Section -->
 		<section id="Games"class="row section topspace">
-			
 			<h2 class="section-title"><span>Games</span></h2>
 			
 			<div class="portfolio-grid">
@@ -157,7 +161,7 @@
 
 		<section id="MotionGraphics"class="row section topspace">
 			
-			<h2 class="section-title"><span>Motion Graphics</span></h2>
+			<h2 class="section-title"><span>Video and motion graphics</span></h2>
 			
 			<div class="portfolio-grid">
 				<div class="project-block" onclick="openPopupENG('LaIA_POPUP')">

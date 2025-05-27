@@ -15,10 +15,9 @@
 	<!-- Icons -->
 	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
 	<!-- Fonts -->
-	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Alice|Open+Sans:400,300,700">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Grandstander:ital,wght@0,100..900;1,100..900&family=Lexend:wght@100..900&family=Outfit:wght@100..900&display=swap" rel="stylesheet">
 	<!-- Custom styles -->
 	<link rel="stylesheet" href="assets/css/styles.css">
 
@@ -63,10 +62,15 @@
 </header>
 	
 <main id="main">
-
+	<div class="blob-container">
+		<div class="blob blob-left"></div>
+		<div class="blob blob-right blob-big"></div>
+		<div class="blob blob-left blob-big"></div>
+		<div class="blob blob-right"></div>
+	</div>
 	<div class="container">
 		<div class="row section topspace">
-			<h2 class="section-title"><span>Sobre Mí</span></h2>
+			<h2 class="section-title"><span>Sobre mí</span></h2>
 			<div class="aboutme-block">
 				<p class="lead">Hola, soy Andrés, una persona recursiva y a la que le encanta aprender, y además un <span class=highlight-text>ingeniero multimedia.</span> 
 					Mi título  significa que poseo habilidades en distintos entornos creativos digitales de los cuales soy muy apasionado como 
@@ -74,8 +78,10 @@
 					páginas web</span> como la que estás viendo ahora mismo.<br>
 					<br>En mi portafolio encontrarás proyectos en los que contribuí. En cada uno he sido parte de un equipo que ha traído su talento a 
 					la mesa y es justo esa <span class=highlight-text>colaboración y trabajo en equipo</span> lo que ha permitido que estos proyectos sean posibles.<br><br>
-					<h4>¡Bienvenido!</h4>
 				</p>
+				<div class="terminalAnim">
+					 <span class="prompt">> </span> <span id="typed-text">¡Bienvenido!</span> <span class="cursor"></span>
+				</div>
 			</div>
 		</div> <!-- / section -->
 		
@@ -156,7 +162,7 @@
 
 		<section id="MotionGraphics"class="row section topspace">
 			
-			<h2 class="section-title"><span>Motion Graphics</span></h2>
+			<h2 class="section-title"><span>Video y motion graphics</span></h2>
 			
 			<div class="portfolio-grid">
 				<div class="project-block" onclick="openPopupESP('LaIA_POPUP')">
