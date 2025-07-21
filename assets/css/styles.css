@@ -380,7 +380,6 @@ img, video {
 
 
 **********************************************************************/
-/* Typewriter animation*/
 .terminalAnim {
   font-family: 'Courier New', Courier, monospace;
   color: #ffffff;
@@ -389,7 +388,7 @@ img, video {
   border-radius: 5px;
   margin-top: 5%;
   padding: 20px;
-  width: 50%;
+  width: 60%;
   white-space: nowrap;
   display: flex;
   align-items: center;
