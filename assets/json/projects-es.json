@@ -51,14 +51,14 @@
         {
             "id": "AgenciaUAO_POPUP",
             "title": "Reel La Agencia UAO",
-            "description": "Un video presentando los servicios, productos y clientes de La Agencia UAO que realicé durante mi tiempo como practicante.",
+            "description": "Video presentando los servicios, productos y clientes de La Agencia UAO que realicé durante mi tiempo como practicante.",
             "useslist": "Los conocimientos que apliqué para este proyecto incluyen:\n   • Cámara 3D en After Effects.\n   • Sincronización entre video y música en Premiere Pro.\n   • Uso de Dynamic Link entre Premiere Pro y After Effects."
         },
         {
-            "id": "CincuentaAnos_POPUP",
-            "title": "Video caso 50 Años UAO",
-            "description": "Un video que edité durante mi tiempo como practicante en La Agencia UAO. En él se detalla el proceso que se llevó acabo para diseñar la marca del aniversario de 50 años de la universidad Autónoma de Occidente.",
-            "useslist": "Los conocimientos que apliqué para este proyecto incluyen:\n   • Uso de Motion Blur en After Effects.\n   • Animación de texto en After Effects.\n   • Uso de Dynamic Link entre Premiere Pro y After Effects."
+            "id": "Estudiantinas_POPUP",
+            "title": "Video Promos Estudiantinas",
+            "description": "Shorts creados a partir del material filmado para promocionar los lanzamientos de los videos musicales de las Estudiantinas Regionales, grupos de música tradicional colombiana.",
+            "useslist": "Los conocimientos que apliqué para este proyecto incluyen:\n   • Uso de edición y paneos de cámara para ajustar el storytelling a un formato de retrato.\n   • Reutilización de contenido existente para crear material original.\n   • Sincronización musical de audio y video por medio de la edición."
         }
     ]
 }
