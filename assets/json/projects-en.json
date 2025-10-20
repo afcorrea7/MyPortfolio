@@ -7,10 +7,10 @@
             "useslist": "Applied practical knowledge in this project includes:\n   • Use of Unity's New Input System.\n   • Terrain generation with Rule Tiles.\n   • Dialogue system with Scriptable Objects.\n   • OOP concepts such as abstraction and inheritance."
         },
         {
-            "id": "VHS_POPUP",
-            "title": "Video Horror Story (VHS)",
-            "description": "A short project where the player explores a house full of disturbing shadows, which they can defend from by chucking a variety of objects such as lamps or plates. For this project, I was in charge of programming some interactions between the world and the player, like grabbing and throwing objects.",
-            "useslist": "Applied practical knowledge in this project includes:\n   • 3D physics.\n   • Navigation meshes.\n   • Prefabs variants."
+            "id": "WB_POPUP",
+            "title": "Wizard's Backyard",
+            "description": "In Wizard’s Backyard, players collect as many balloons as they can while propelling themselves through the air with a leaf blower. Playable solo or with up to 8 people online.\n For this project, I contributed to the programming of obstacles and collectables, as well as some of the player systems.",
+            "useslist": "Applied practical knowledge in this project includes:\n   • Object Pooling pattern.\n   • Unity Photon for online multiplayer.\n   • Physics-oriented movement."
         },
         {
             "id": "HR_POPUP",

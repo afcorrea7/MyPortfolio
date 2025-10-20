@@ -7,10 +7,10 @@
             "useslist": "Los conocimientos que apliqué para este proyecto incluyen:\n   • Uso del New Input System.\n   • Implementación del terreno con Rule Tiles.\n   • Sistema de diálogos por medio de Scriptable Objects.\n   • Conceptos de POO como la abstracción y herencia."
         },
         {
-            "id": "VHS_POPUP",
-            "title": "Video Horror Story (VHS)",
-            "description": "Un proyecto corto en el que él jugador explora una casa llena de sombras tenebrosas, de las que se puede defender al lanzarles objetos como lámparas o platos. Para este proyecto, me encargue de programar algunas interacciones entre el jugador y el mundo, como la recolección y lanzamiento de objetos.",
-            "useslist": "Los conocimientos que apliqué para este proyecto incluyen:\n   • Físicas 3D.\n   • Navigation Meshes.\n   • Variantes de Prefabs."
+            "id": "WB_POPUP",
+            "title": "Wizard's Backyard",
+            "description": "En Wizard’s Backyard los jugadores recogen tanto globos como puedan mientras se propulsan por los aires con una sopladora de hojas. Jugable con hasta 8 personas en línea o solo.\nPara este proyecto aporte la programación de los obstáculos y coleccionables, así como en algunos sistemas del jugador.",
+            "useslist": "Los conocimientos que apliqué para este proyecto incluyen:\n   • Patrón de Object Pooling.\n   • Unity Photon para multijugador en línea.\n   • Movimiento por físicas."
         },
         {
             "id": "HR_POPUP",

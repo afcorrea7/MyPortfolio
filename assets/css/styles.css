@@ -58,7 +58,7 @@ main {
   radial-gradient(circle at 30%, #6978ff 10%, #3b00b2 70%, #0a0a32 100%);
   border-radius: 30% 70% 70% 30% / 30% 40% 70% 70%;
   filter:blur(40px);
-  animation: rotateBlob 12s linear infinite, morphBlob 6s linear infinite;
+  animation: rotateBlob 10s linear infinite, morphBlob 3s linear infinite;
 }
 
 .blob-left {
