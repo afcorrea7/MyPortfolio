@@ -149,7 +149,6 @@ main {
   text-align: center;
 }
 .navbar-collapse .navbar-nav > li {
-  float: none;
   display: inline-block;
 }
 .navbar-collapse .navbar-nav > li > a {
