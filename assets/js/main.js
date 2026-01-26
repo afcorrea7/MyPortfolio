@@ -23,6 +23,10 @@ document.addEventListener('DOMContentLoaded', () => {
 	}
 });
 
+document.getElementById('openGames').addEventListener('click', function () { $('#collapseGames').collapse('show'); });
+document.getElementById('openVideos').addEventListener('click', function () { $('#collapseVideos').collapse('show'); });
+
+
 //typewriter animation
 const observer = new IntersectionObserver((entries, observer) => {
 	entries.forEach(entry => {
