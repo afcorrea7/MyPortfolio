@@ -23,6 +23,7 @@ document.addEventListener('DOMContentLoaded', () => {
 	}
 });
 
+//doing this through javascript instead of letting bootstrap handle it allows the option to ONLY open the collapsed content, not close it on clicking again
 document.getElementById('openGames').addEventListener('click', function () { $('#collapseGames').collapse('show'); });
 document.getElementById('openVideos').addEventListener('click', function () { $('#collapseVideos').collapse('show'); });
 
