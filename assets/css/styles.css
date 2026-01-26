@@ -7,7 +7,6 @@ html {
 }
 
 body {
-  font-size: 15px;
   font-size: 0.9375rem;
   font-family: "Lexend", Helvetica, Arial, sans-serif;
   color: #EBF2FA;
@@ -120,10 +119,6 @@ main {
   top: 0;
   left: 0;
   border-width: 1px 0;
-  -webkit-border-radius: 0;
-  -webkit-background-clip: padding-box;
-  -moz-border-radius: 0;
-  -moz-background-clip: padding;
   border-radius: 0;
   background-clip: padding-box;
   width: 100%;
@@ -133,10 +128,6 @@ main {
 .navbar-collapse {
   display: flex;
   flex-direction: row;
-  -webkit-border-radius: 0;
-  -webkit-background-clip: padding-box;
-  -moz-border-radius: 0;
-  -moz-background-clip: padding;
   border-radius: 0;
   background-clip: padding-box;
   font-family: "Lexend", Helvetica, Arial, sans-serif;
