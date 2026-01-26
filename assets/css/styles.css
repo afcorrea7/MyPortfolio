@@ -464,6 +464,7 @@ img {
 
 /* Make the block grow a bit on hover */
 .project-block:hover {
+  cursor: pointer;
   transform: scale(1.05);                /* Grows the block slightly on hover */
 }
 
@@ -649,24 +650,55 @@ img {
 
 **********************************************************************/
 .section-title {
-  display: block;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
   width: 100%;
   overflow: hidden;
-  padding-bottom: 20px;
-  margin: 75px 0 20px;
+  padding: 20px;
+  background-color: #ccccff1a;
+  border: 1px solid #ffffff;
+  border-radius: 10px;
+  margin: 20px;
   text-align: center;
   font-weight: 800;
   font-size: 52px;
   font-size: 2.6rem;
   color: #ffffff;
   letter-spacing: 1px;
+
+  transition: transform 0.3s ease, background-color 0.3s ease;
 }
 .section-title a {
   color: #333333;
 }
 .section-title span {
-  display: inline-block;
   position: relative;
+}
+.section-title:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+}
+
+.collapse-arrow {
+  margin: 15px;
+  width: 32px;
+}
+
+.section-title.collapsed img {
+  rotate: 0deg;
+  transition: 0.3s ease;
+}
+
+.section-title:not(.collapsed) img {
+  rotate: -180deg;
+  transition: 0.3s ease;
+}
+
+.collapsing {
+  opacity: 0.5;
+  transition: 0.3s ease;
 }
 
 
@@ -764,6 +796,15 @@ img {
     display: flex; 
     flex-direction: column;
     justify-content: center; /* Centers items horizontally */
+    align-items: center; /* Centers items vertically */
+    margin: 0 auto; /* Horizontally centers block element */
+  }
+
+  .section-title {
+    display: flex; 
+    flex-direction: column;
+    justify-content: center; /* Centers items horizontally */
+    width: 80%;
     align-items: center; /* Centers items vertically */
     margin: 0 auto; /* Horizontally centers block element */
   }

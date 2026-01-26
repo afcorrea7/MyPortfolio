@@ -33,7 +33,7 @@
 				<ul class="nav navbar-nav">
 					<li><a href="#head">Home</a></li>
 					<li><a href="#Games">Games</a></li>
-					<li><a href="#MotionGraphics">Motion Graphics</a></li>
+					<li><a href="#MotionGraphics">Video Editing</a></li>
 					<li><a href="#footer">Contact</a></li>
 					<li class="dropdown">
 						<a href="#" class="dropdown-toggle" data-toggle="dropdown">Language<b class="caret"></b></a>
@@ -70,7 +70,7 @@
 	</div>
 	<div class="container">
 		<div class="row section topspace">
-			<h2 class="section-title"><span>About me</span></h2>
+			<h2 class="text-center"><span>About me</span></h2>
 			<div class="aboutme-block">
 				<p class="lead">Hi, I'm Andrés, a resourceful person and someone that loves to learn, and also a <span class=highlight-text>multimedia engineer.</span>
 					 My title means that I possess skills in a variety of creative digital media that I'm very passionate about like <span class=highlight-text>
@@ -87,138 +87,149 @@
 			
 		<!-- /Start of Projects Section -->
 		<section id="Games"class="row section topspace">
-			<h2 class="section-title"><span>Games</span></h2>
+			<div class="section-title collapsed" role="button" data-toggle="collapse" data-target="#collapseGames" aria-expanded="false" aria-controls="collapseGames">
+				<span>Games</span>
+				<img class="collapse-arrow" src="assets/images/down-arrow.png" alt="Down Arrow">
 			
-			<div class="portfolio-grid">
-				<div class="project-block" onclick="openPopupENG('HUP_POPUP')">
-					<div class="gif-container">
-					  <img src="assets/images/HuP GIF - Cover.png" alt="Project Preview" class="project-gif static">
-					  <img src="assets/images/HuP GIF.gif" alt="Project GIF" class="project-gif animated">
-					</div>
-					<div class="project-info">
-					  <h2>Había un Pueblo</h2>
-					  <p>2D Puzzle-adventure game.</p>
-					</div>
-				</div>
-				
-				<div class="project-block" onclick="openPopupENG('WB_POPUP')">
-					<div class="gif-container">
-						<img src="assets/images/WB GIF - Cover.png" alt="Project Preview" class="project-gif static">
-						<img src="assets/images/Wizards-GIF.gif" alt="Project GIF" class="project-gif animated">
-					</div>
-					<div class="project-info">
-						<h2>Wizard's Backyard</h2>
-						<p>3D Party Game.</p>
-					</div>
-				</div>
-
-				<div class="project-block" onclick="openPopupENG('HR_POPUP')">
-					<div class="gif-container">
-						<img src="assets/images/HR GIF - Cover.png" alt="Project Preview" class="project-gif static">
-						<img src="assets/images/HR GIF.gif" alt="Project GIF" class="project-gif animated">
-					</div>
-					<div class="project-info">
-						<h2>Hamster Roller</h2>
-						<p>2D platformer game.</p>
-					</div>
-				</div>
-
-				<div class="project-block" onclick="openPopupENG('LDSLN_POPUP')">
-					<div class="gif-container">
-						<img src="assets/images/LDSLN GIF - Cover.png" alt="Project Preview" class="project-gif static">
-						<img src="assets/images/LDSLN GIF.gif" alt="Project GIF" class="project-gif animated">
-					</div>
-					<div class="project-info">
-						<h2>Los Duendes Salvan La Navidad</h2>
-						<p>2D arcade game.</p>
-					</div>
-				</div>
-
-				<div class="project-block" onclick="openPopupENG('NMA_POPUP')">
-					<div class="gif-container">
-						<img src="assets/images/NMA GIF - Cover.png" alt="Project Preview" class="project-gif static">
-						<img src="assets/images/NMA GIF.gif" alt="Project GIF" class="project-gif animated">
-					</div>
-					<div class="project-info">
-						<h2>No Más Alergias</h2>
-						<p>2D edutainment game.</p>
-					</div>
-				</div>
-
-				<div class="project-block" onclick="openPopupENG('RM_POPUP')">
-					<div class="gif-container">
-						<img src="assets/images/RM GIF - Cover.png" alt="Project Preview" class="project-gif static">
-						<img src="assets/images/RM GIF.gif" alt="Project GIF" class="project-gif animated">
-					</div>
-					<div class="project-info">
-						<h2>Robot Mafia</h2>
-						<p>3D action-puzzle game.</p>
-					</div>
-				</div>
 			</div>
+			<div id="collapseGames" class="collapse" data-parent="#Games"> 
+				<div class="portfolio-grid">
+					<div class="project-block" onclick="openPopupENG('HUP_POPUP')">
+						<div class="gif-container">
+						<img src="assets/images/HuP GIF - Cover.png" alt="Project Preview" class="project-gif static">
+						<img src="assets/images/HuP GIF.gif" alt="Project GIF" class="project-gif animated">
+						</div>
+						<div class="project-info">
+						<h2>Había un Pueblo</h2>
+						<p>2D Puzzle-adventure game.</p>
+						</div>
+					</div>
+					
+					<div class="project-block" onclick="openPopupENG('WB_POPUP')">
+						<div class="gif-container">
+							<img src="assets/images/WB GIF - Cover.png" alt="Project Preview" class="project-gif static">
+							<img src="assets/images/Wizards-GIF.gif" alt="Project GIF" class="project-gif animated">
+						</div>
+						<div class="project-info">
+							<h2>Wizard's Backyard</h2>
+							<p>3D Party Game.</p>
+						</div>
+					</div>
+
+					<div class="project-block" onclick="openPopupENG('HR_POPUP')">
+						<div class="gif-container">
+							<img src="assets/images/HR GIF - Cover.png" alt="Project Preview" class="project-gif static">
+							<img src="assets/images/HR GIF.gif" alt="Project GIF" class="project-gif animated">
+						</div>
+						<div class="project-info">
+							<h2>Hamster Roller</h2>
+							<p>2D platformer game.</p>
+						</div>
+					</div>
+
+					<div class="project-block" onclick="openPopupENG('LDSLN_POPUP')">
+						<div class="gif-container">
+							<img src="assets/images/LDSLN GIF - Cover.png" alt="Project Preview" class="project-gif static">
+							<img src="assets/images/LDSLN GIF.gif" alt="Project GIF" class="project-gif animated">
+						</div>
+						<div class="project-info">
+							<h2>Los Duendes Salvan La Navidad</h2>
+							<p>2D arcade game.</p>
+						</div>
+					</div>
+
+					<div class="project-block" onclick="openPopupENG('NMA_POPUP')">
+						<div class="gif-container">
+							<img src="assets/images/NMA GIF - Cover.png" alt="Project Preview" class="project-gif static">
+							<img src="assets/images/NMA GIF.gif" alt="Project GIF" class="project-gif animated">
+						</div>
+						<div class="project-info">
+							<h2>No Más Alergias</h2>
+							<p>2D edutainment game.</p>
+						</div>
+					</div>
+
+					<div class="project-block" onclick="openPopupENG('RM_POPUP')">
+						<div class="gif-container">
+							<img src="assets/images/RM GIF - Cover.png" alt="Project Preview" class="project-gif static">
+							<img src="assets/images/RM GIF.gif" alt="Project GIF" class="project-gif animated">
+						</div>
+						<div class="project-info">
+							<h2>Robot Mafia</h2>
+							<p>3D action-puzzle game.</p>
+						</div>
+					</div>
+				</div>		
+			</div>
+
 
 		</section> <!-- /section -->
 
 		<section id="MotionGraphics"class="row section topspace">
 			
-			<h2 class="section-title"><span>Video and motion graphics</span></h2>
+			<div class="section-title collapsed" role="button" data-toggle="collapse" data-target="#collapseVideos" aria-expanded="false" aria-controls="collapseVideos">
+				<span>Video Editing</span>
+				<img class="collapse-arrow" src="assets/images/down-arrow.png" alt="Down Arrow">
+			</div>
 			
-			<div class="portfolio-grid">
-				<div class="project-block" onclick="openPopupENG('LaIA_POPUP')">
-					<div class="gif-container">
-					  <img src="assets/images/LAIA GIF - Cover.png" alt="Project Preview" class="project-gif static">
-					  <img src="assets/images/LAIA GIF.gif" alt="Project GIF" class="project-gif animated">
+			<div id="collapseVideos" class="collapse" data-parent="#MotionGraphics">
+				<div class="portfolio-grid">
+					<div class="project-block" onclick="openPopupENG('LaIA_POPUP')">
+						<div class="gif-container">
+						<img src="assets/images/LAIA GIF - Cover.png" alt="Project Preview" class="project-gif static">
+						<img src="assets/images/LAIA GIF.gif" alt="Project GIF" class="project-gif animated">
+						</div>
+						<div class="project-info">
+						<h2>LaIA</h2>
+						<p>Mascot animations.</p>
+						</div>
 					</div>
-					<div class="project-info">
-					  <h2>LaIA</h2>
-					  <p>Mascot animations.</p>
+					
+					<div class="project-block" onclick="openPopupENG('Fundautonoma_POPUP')">
+						<div class="gif-container">
+							<img src="assets/images/Fundautonoma GIF - Cover.png" alt="Project Preview" class="project-gif static">
+							<img src="assets/images/Fundautonoma GIF.gif" alt="Project GIF" class="project-gif animated">
+						</div>
+						<div class="project-info">
+							<h2>Sentidos FundAutónoma</h2>
+							<p>TV Commercials.</p>
+						</div>
 					</div>
-				</div>
-				
-				<div class="project-block" onclick="openPopupENG('Fundautonoma_POPUP')">
-					<div class="gif-container">
-						<img src="assets/images/Fundautonoma GIF - Cover.png" alt="Project Preview" class="project-gif static">
-						<img src="assets/images/Fundautonoma GIF.gif" alt="Project GIF" class="project-gif animated">
-					</div>
-					<div class="project-info">
-						<h2>Sentidos FundAutónoma</h2>
-						<p>TV Commercials.</p>
-					</div>
-				</div>
 
-				<div class="project-block" onclick="openPopupENG('AgenciaUAO_POPUP')">
-					<div class="gif-container">
-						<img src="assets/images/Agencia GIF - Cover.png" alt="Project Preview" class="project-gif static">
-						<img src="assets/images/AgenciaAnuncio GIF.gif" alt="Project GIF" class="project-gif animated">
+					<div class="project-block" onclick="openPopupENG('AgenciaUAO_POPUP')">
+						<div class="gif-container">
+							<img src="assets/images/Agencia GIF - Cover.png" alt="Project Preview" class="project-gif static">
+							<img src="assets/images/AgenciaAnuncio GIF.gif" alt="Project GIF" class="project-gif animated">
+						</div>
+						<div class="project-info">
+							<h2>Showreel AgenciaUAO</h2>
+							<p>Showreel video.</p>
+						</div>
 					</div>
-					<div class="project-info">
-						<h2>Showreel AgenciaUAO</h2>
-						<p>Showreel video.</p>
-					</div>
-				</div>
 
-				<div class="project-block" onclick="openPopupENG('CincuentaAnos_POPUP')">
-					<div class="gif-container">
-						<img src="assets/images/50Anos GIF - Cover.png" alt="Project Preview" class="project-gif static">
-						<img src="assets/images/50Anos GIF.gif" alt="Project GIF" class="project-gif animated">
+					<div class="project-block" onclick="openPopupENG('CincuentaAnos_POPUP')">
+						<div class="gif-container">
+							<img src="assets/images/50Anos GIF - Cover.png" alt="Project Preview" class="project-gif static">
+							<img src="assets/images/50Anos GIF.gif" alt="Project GIF" class="project-gif animated">
+						</div>
+						<div class="project-info">
+							<h2>50 Años UAO</h2>
+							<p>Video editing for a university case study.</p>
+						</div>
 					</div>
-					<div class="project-info">
-						<h2>50 Años UAO</h2>
-						<p>Video editing for a university case study.</p>
-					</div>
-				</div>
 
-				<div class="project-block" onclick="openPopupENG('Estudiantinas_POPUP')">
-					<div class="gif-container">
-						<img src="assets/images/Estudiantinas GIF - Cover.png" alt="Project Preview" class="project-gif static">
-						<img src="assets/images/Estudiantinas-GIF.gif" alt="Project GIF" class="project-gif animated">
+					<div class="project-block" onclick="openPopupENG('Estudiantinas_POPUP')">
+						<div class="gif-container">
+							<img src="assets/images/Estudiantinas GIF - Cover.png" alt="Project Preview" class="project-gif static">
+							<img src="assets/images/Estudiantinas-GIF.gif" alt="Project GIF" class="project-gif animated">
+						</div>
+						<div class="project-info">
+							<h2>Estudiantinas Promo Videos</h2>
+							<p>Promotional videos in short format.</p>
+						</div>
 					</div>
-					<div class="project-info">
-						<h2>Estudiantinas Promo Videos</h2>
-						<p>Promotional videos in short format.</p>
-					</div>
-				</div>
 
+				</div>
 			</div>
 		</section>
 		<!-- /End of Projects Section -->
@@ -597,7 +608,7 @@
 
 <!-- JavaScript libs are placed at the end of the document so the pages load faster -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-<script src="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+<script src="https://netdna.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 <script src="https://www.youtube.com/iframe_api"></script>
 <script src="assets/js/main.js"></script>
 </body>

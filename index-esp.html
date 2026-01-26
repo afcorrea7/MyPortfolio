@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es-419">
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport"    content="width=device-width, initial-scale=1.0">
@@ -34,7 +34,7 @@
 				<ul class="nav navbar-nav">
 					<li><a href="#head">Home</a></li>
 					<li><a href="#Games">Juegos</a></li>
-					<li><a href="#MotionGraphics">Motion Graphics</a></li>
+					<li><a href="#MotionGraphics">Edición de Video</a></li>
 					<li><a href="#footer">Contacto</a></li>
 					<li class="dropdown">
 						<a href="#" class="dropdown-toggle" data-toggle="dropdown">Idioma<b class="caret"></b></a>
@@ -70,7 +70,7 @@
 	</div>
 	<div class="container">
 		<div class="row section topspace">
-			<h2 class="section-title"><span>Sobre mí</span></h2>
+			<h2 class="text-center"><span>Sobre mí</span></h2>
 			<div class="aboutme-block">
 				<p class="lead">Hola, soy Andrés, una persona recursiva y a la que le encanta aprender, y además un <span class=highlight-text>ingeniero multimedia.</span> 
 					Mi título  significa que poseo habilidades en distintos entornos creativos digitales de los cuales soy muy apasionado como 
@@ -87,10 +87,13 @@
 		
 		<!-- /Start of Projects Section -->
 		<section id="Games"class="row section topspace">
+			<div class="section-title collapsed" role="button" data-toggle="collapse" data-target="#collapseGames" aria-expanded="false" aria-controls="collapseGames">
+				<span>Juegos</span>
+				<img class="collapse-arrow" src="assets/images/down-arrow.png" alt="Down Arrow">
 			
-			<h2 class="section-title"><span>Juegos</span></h2>
-			
-			<div class="portfolio-grid">
+			</div>
+			<div id="collapseGames" class="collapse" data-parent="#Games"> 
+				<div class="portfolio-grid">
 				<div class="project-block" onclick="openPopupESP('HUP_POPUP')">
 					<div class="gif-container">
 					  <img src="assets/images/HuP GIF - Cover.png" alt="Project Preview" class="project-gif static">
@@ -156,15 +159,20 @@
 						<p>Juego de acción y puzles en 3D.</p>
 					</div>
 				</div>
+				</div>
 			</div>
+
 
 		</section> <!-- /section -->
 
 		<section id="MotionGraphics"class="row section topspace">
-			
-			<h2 class="section-title"><span>Video y motion graphics</span></h2>
-			
-			<div class="portfolio-grid">
+			<div class="section-title collapsed" role="button" data-toggle="collapse" data-target="#collapseVideos" aria-expanded="false" aria-controls="collapseVideos">
+				<span>Edición de Video</span>
+				<img class="collapse-arrow" src="assets/images/down-arrow.png" alt="Down Arrow">
+			</div>			
+
+			<div id="collapseVideos" class="collapse" data-parent="#MotionGraphics">
+				<div class="portfolio-grid">
 				<div class="project-block" onclick="openPopupESP('LaIA_POPUP')">
 					<div class="gif-container">
 					  <img src="assets/images/LAIA GIF - Cover.png" alt="Project Preview" class="project-gif static">
@@ -220,7 +228,9 @@
 					</div>
 				</div>
 
+				</div>
 			</div>
+
 		</section>
 		<!-- /End of Projects Section -->
 
@@ -598,7 +608,7 @@
 
 <!-- JavaScript libs are placed at the end of the document so the pages load faster -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-<script src="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+<script src="https://netdna.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 <script src="https://www.youtube.com/iframe_api"></script>
 <script src="assets/js/main.js"></script>
 </body>
