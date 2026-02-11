@@ -34,7 +34,7 @@
             "id": "RM_POPUP",
             "title": "Robot Mafia",
             "description": "A game we are currently working on. It’s a puzzles and action game in which the player uses reflections and angles in order to bounce their projectiles to eliminate enemies.",
-            "useslist": " "
+            "useslist": "Applied practical knowledge in this project includes:\n   • Singleton pattern.\n  • Object pooling pattern.\n  • Interfaces and abstract classes.\n    • State machines\n  • Scriptable Objects\n"
         },
         {
             "id": "LaIA_POPUP",

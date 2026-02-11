@@ -33,8 +33,8 @@
         {
             "id": "RM_POPUP",
             "title": "Robot Mafia",
-            "description": "Un proyecto que estamos desarrollando actualmente. Se trata de un juego de puzles y acción en el que el jugador usa reflejos y ángulos para rebotar sus proyectiles y eliminar enemigos.",
-            "useslist": " "
+            "description": "Un juego de puzles y acción actualmente en desarrollo, en el que el jugador utiliza reflejos para hacer rebotar sus disparos en espejos y eliminar enemigos. El juego incluye una variedad de mecanismos, tipos de enemigos y combates contra jefes.",
+            "useslist": "Los conocimientos que apliqué para este proyecto incluyen:\n   • Patrón de Singleton.\n    • Patrón de Object Pooling.\n   • Interfaces y clases abstractas.\n • Máquinas de estados.\n    • Scriptable Objects."
         },
         {
             "id": "LaIA_POPUP",
