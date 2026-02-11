@@ -38,17 +38,6 @@ const observer = new IntersectionObserver((entries, observer) => {
 	});
 });
 
-function startTyping(){
-	const typed = document.querySelector('typed-text');
-  	const text = typed.textContent;
- 	const steps = text.length;
-	typed.style.width = '0ch';
-  	typed.style.animation = `typing 2s steps(${steps}, end) forwards`;
-}
-
-
-
-
 //For projects detailing more info on-click
 function openPopupESP(popupId) {
 	const directory = 'assets/json/projects-es.json';

@@ -370,22 +370,6 @@ img, video {
 
 
 **********************************************************************/
-.terminalAnim {
-  font-family: 'Courier New', Courier, monospace;
-  color: #ffffff;
-  background-color: #000;
-  border: 1px solid #ffffff;
-  border-radius: 5px;
-  margin-top: 5%;
-  padding: 20px;
-  width: 60%;
-  white-space: nowrap;
-  display: flex;
-  align-items: center;
-  overflow: hidden;
-  font-size: 1.2rem;
-}
-
 .prompt {
   padding-right: 15px;
 }
@@ -561,11 +545,34 @@ img {
 .popup-footer {
   display: inline-flex;
   width: 95%;
-  justify-content: space-between; /* Separate the link and icons */
+  justify-content: flex-end; /* Separate the link and icons */
   align-items: center;
   margin-top: 25px;
   border-top: 1px solid #ccc;
   padding-top: 10px;
+}
+
+.popup-seemore-btn {
+  display: flex;
+  flex: 0 0 auto;
+  justify-content: center;
+  width: fit-content;  
+  padding: 10px 15px; 
+  margin-top: 25px;
+  margin-left: 35%;
+  background-color: #94baff; 
+  color: #EBF2FA; 
+  border-radius: 6px; 
+  font-weight: 600;
+  transition: transform 0.3s ease
+}
+
+.popup-seemore-btn:hover {
+  color: #EBF2FA; 
+  transform: scale(1.05); 
+}
+.popup-seemore-btn a, a:visited, a:hover, a:active { 
+  text-decoration: none; 
 }
 
 .close-btn {
@@ -601,6 +608,10 @@ img {
   margin: 0 0 15px 0;
 }
 
+.popup-text h5{
+  color: #94baff;
+}
+
 .external-link {
   align-items: center;
   text-align: left;
@@ -611,12 +622,13 @@ img {
 }
 
 .tools {
-  display: flex;
+  display: block flex;
+  justify-content: flex-end;
   align-items: center;
   text-align: left;
-  min-width: 35%;
+  min-width: 10%;
   font-weight: 300;
-  column-gap: 3%;
+  column-gap: 10%;
   margin-left: 10px;
 }
 .tools img {
@@ -818,6 +830,10 @@ img {
   .popup-body{
     display: flex;
     flex-direction: column;
+  }
+
+  .popup-footer{
+    justify-content: space-evenly;
   }
 
   .youtube-container iframe{
