@@ -3,62 +3,68 @@
         {
             "id": "HUP_POPUP",
             "title": "Había un Pueblo",
-            "description": "En este videojuego el jugador explora para capturar distintos mitos y leyendas de la cultura colombiana, interactuando con otros personajes, resolviendo puzles y superando minijuegos. En este proyecto me encargué de programar todos los aspectos del juego, desde la lógica de los minijuegos hasta la interfaz de usuario.",
-            "useslist": "Los conocimientos que apliqué para este proyecto incluyen:\n   • Uso del New Input System.\n   • Implementación del terreno con Rule Tiles.\n   • Sistema de diálogos por medio de Scriptable Objects.\n   • Conceptos de POO como la abstracción y herencia."
+            "description": "¡Explora y encuentra distintos mitos y leyendas de la cultura colombiana! Interactua con peculiares personajes, resuelve puzles y supera minijuegos para capturar mitos devuelta en su libro. Me encargué de programar todos los aspectos del juego, desde la lógica de los minijuegos hasta la interfaz de usuario.",
+            "useslist": "Conocimientos aplicados en este proyecto incluyen:\n   • Implementación del terreno con Rule Tiles.\n   • Sistema de diálogos con Scriptable Objects.\n   • Conceptos de POO como la abstracción y herencia."
         },
         {
             "id": "WB_POPUP",
             "title": "Wizard's Backyard",
-            "description": "En Wizard’s Backyard los jugadores recogen tanto globos como puedan mientras se propulsan por los aires con una sopladora de hojas. Jugable con hasta 8 personas en línea o solo.\nPara este proyecto aporte la programación de los obstáculos y coleccionables, así como en algunos sistemas del jugador.",
-            "useslist": "Los conocimientos que apliqué para este proyecto incluyen:\n   • Patrón de Object Pooling.\n   • Unity Photon para multijugador en línea.\n   • Movimiento por físicas."
+            "description": "¡Recoge tantos globos como puedas mientras vuelas por los aires con una sopladora de hojas! Jugable con hasta 8 personas en línea o solo.\nPara este proyecto aporté la programación de los obstáculos y coleccionables, así como en algunos sistemas del jugador.",
+            "useslist": "Conocimientos aplicados en este proyecto incluyen:\n   • Patrón de Object Pooling.\n   • Unity Photon para multijugador en línea.\n   • Movimiento por físicas."
         },
         {
             "id": "HR_POPUP",
             "title": "Hamster Roller",
-            "description": "Un juego de plataformas en el que el jugador puede cambiar de forma para superar obstáculos y recolectar semillas. Para este proyecto aporte la programación de cambio de formas, así como la de recolección de colectables y las condiciones de ganar y perder.",
-            "useslist": "Los conocimientos que apliqué para este proyecto incluyen:\n   • State machines.\n   • Uso de prefabs.\n   • Uso de Blend Trees."
+            "description": "Un juego de plataformas en el que controlas a un hámster que cambia de forma para superar obstáculos y recolectar semillas. Para este proyecto aporte la programación de cambio de formas, así como la de recolección de colectables y las condiciones de ganar y perder.",
+            "useslist": "Conocimientos aplicados en este proyecto incluyen:\n   • State machines.\n   • Uso de prefabs.\n   • Uso de Blend Trees."
         },
         {
             "id": "LDSLN_POPUP",
             "title": "Los Duendes Salvan la Navidad",
-            "description": "Un juego arcade en el que el jugador recolecta duendes para aumentar su contador de regalos e impedir que se le acabe el tiempo. Programé el movimiento de los personajes y las mecánicas de juego principales.",
-            "useslist": "Los conocimientos que apliqué para este proyecto incluyen:\n   • Variantes de prefabs.\n   • Implementación del terreno con Rule Tiles.\n   • Uso de Blend Trees."
+            "description": "Un juego arcade en el que Santa Claus recolecta duendes para aumentar su contador de regalos e impedir que se le acabe el tiempo. Programé el movimiento de los personajes y las mecánicas de juego principales.",
+            "useslist": "Conocimientos aplicados en este proyecto incluyen:\n   • Variantes de prefabs.\n   • Implementación del terreno con Rule Tiles.\n   • Uso de Blend Trees."
         },
         {
             "id": "NMA_POPUP",
             "title": "No Más Alergias",
-            "description": "Un juego educativo para jugar en buscador o dispositivos Android que desarrollé durante mi tiempo como practicante en La Agencia UAO, para la compañía farmacéutica Inmunotek. El juego apunta a explicar lo que son las alergias y la inmunoterapia a la población infantil.",
-            "useslist": "Los conocimientos que apliqué para este proyecto incluyen:\n   • Patrón de Singleton.\n   • Animator Override Controllers.\n   • Implementación de interfaces de Drag and Drop."
+            "description": "Un juego educativo para jugar en buscador o dispositivos Android. El juego apunta a explicar lo que son las alergias y la inmunoterapia a la población infantil por medio de una serie de minijuegos.  Desarrollado para la compañía farmacéutica Inmunotek.",
+            "useslist": "Conocimientos aplicados en este proyecto incluyen:\n   • Patrón de Singleton.\n   • Animator Override Controllers.\n   • Implementación de interfaces de Drag and Drop."
         },
         {
             "id": "RM_POPUP",
             "title": "Robot Mafia",
             "description": "Un juego de puzles y acción actualmente en desarrollo, en el que el jugador utiliza reflejos para hacer rebotar sus disparos en espejos y eliminar enemigos. El juego incluye una variedad de mecanismos, tipos de enemigos y combates contra jefes.",
-            "useslist": "Los conocimientos que apliqué para este proyecto incluyen:\n    • Patrón de Object Pooling.\n   • Interfaces y clases abstractas.\n • Máquinas de estados.\n    • Scriptable Objects."
+            "useslist": "Conocimientos aplicados en este proyecto incluyen:\n    • Patrón de Object Pooling.\n   • Interfaces y clases abstractas.\n • Máquinas de estados.\n    • Scriptable Objects."
         },
         {
             "id": "LaIA_POPUP",
             "title": "LaIA",
-            "description": "LaIA es una campaña universitaria a la que contribuí durante mi tiempo como practicante en La Agencia UAO. Mis aportes consistieron en animar al personaje en distintas situaciones. El personaje tuvo presencia tanto en video entrevistas como animaciones publicitarias cortas.",
-            "useslist": "Los conocimientos que apliqué para este proyecto incluyen:\n   • Animación en After Effects.\n   • Lip Sync.\n   • Uso dinámico entre Illustrator y After Effects."
+            "description": "LaIA es una mascota para una campaña publicitaria promocionando la acreditación institucional de la Universidad Autónoma de Occidente. Mis aportes consistieron en animar al personaje en distintas situaciones. El personaje tuvo presencia tanto en video entrevistas como animaciones publicitarias cortas.",
+            "useslist": "Conocimientos aplicados en este proyecto incluyen:\n   • Animación en After Effects.\n   • Lip Sync.\n   • Uso dinámico entre Illustrator y After Effects."
         },
         {
             "id": "Fundautonoma_POPUP",
             "title": "Sentidos FundAutónoma",
-            "description": "Una serie de dos comerciales que desarrollé para la organización sin ánimo de lucro creada por la universidad Autónoma de Occidente. Tuve el privilegio de visitar la fundación para filmar y dirigir las tomas del segundo comercial y de incluso dirigir su voz en off.",
-            "useslist": "Los conocimientos que apliqué para este proyecto incluyen:\n   • Rotobrush de After Effects.\n   • Grabación de audio con Avid Pro Tools.\n   • Uso de Dynamic Link entre Premiere Pro y After Effects.\n"
+            "description": "Comercial para la organización sin ánimo de lucro creada por la universidad Autónoma de Occidente. Visité la fundación para filmar y dirigir las tomas del comercial.",
+            "useslist": "Conocimientos aplicados en este proyecto incluyen:\n   • Rotobrush de After Effects.\n   • Grabación de audio con Avid Pro Tools.\n   • Uso de Dynamic Link entre Premiere Pro y After Effects.\n"
         },
         {
             "id": "AgenciaUAO_POPUP",
             "title": "Reel La Agencia UAO",
             "description": "Video presentando los servicios, productos y clientes de La Agencia UAO que realicé durante mi tiempo como practicante.",
-            "useslist": "Los conocimientos que apliqué para este proyecto incluyen:\n   • Cámara 3D en After Effects.\n   • Sincronización entre video y música en Premiere Pro.\n   • Uso de Dynamic Link entre Premiere Pro y After Effects."
+            "useslist": "Conocimientos aplicados en este proyecto incluyen:\n   • Cámara 3D en After Effects.\n   • Sincronización entre video y música en Premiere Pro.\n   • Uso de Dynamic Link entre Premiere Pro y After Effects."
+        },
+        {
+            "id": "CincuentaAnos_POPUP",
+            "title": "Video caso 50 Años UAO",
+            "description": "Un video caso para la universidad Autónoma de Occidente. En él se detalla el proceso que se llevó a cabo para diseñar la marca del aniversario de 50 años de la universidad Autónoma de Occidente.",
+            "useslist": "Conocimientos aplicados en este proyecto incluyen:\n   • Uso de Motion Blur en After Effects.\n   • Animación de texto en After Effects.\n   • Uso de Dynamic Link entre Premiere Pro y After Effects."
         },
         {
             "id": "Estudiantinas_POPUP",
             "title": "Video Promos Estudiantinas",
-            "description": "Shorts creados a partir del material filmado para promocionar los lanzamientos de los videos musicales de las Estudiantinas Regionales, grupos de música tradicional colombiana.",
-            "useslist": "Los conocimientos que apliqué para este proyecto incluyen:\n   • Uso de edición y paneos de cámara para ajustar el storytelling a un formato de retrato.\n   • Reutilización de contenido existente para crear material original.\n   • Sincronización musical de audio y video por medio de la edición."
+            "description": "Shorts creados a partir del material filmado para promocionar los lanzamientos de los videos musicales de las Estudiantinas Regionales, un grupo nacional de música tradicional colombiana.",
+            "useslist": "Conocimientos aplicados en este proyecto incluyen:\n   • Paneos de cámara para ajustar el storytelling a un formato vertical.\n   • Reutilización de contenido existente para crear material original.\n   • Sincronización musical de audio y video."
         }
     ]
 }

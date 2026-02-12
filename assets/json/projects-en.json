@@ -3,31 +3,31 @@
         {
             "id": "HUP_POPUP",
             "title": "Había un Pueblo",
-            "description": "In this videogame the player explores to find myths and legends from Colombia's culture, interacting with other characters, solving puzzles and beating minigames. I coded all this project's features, from minigame logic to user interface.",
-            "useslist": "Applied practical knowledge in this project includes:\n   • Use of Unity's New Input System.\n   • Terrain generation with Rule Tiles.\n   • Dialogue system with Scriptable Objects.\n   • OOP concepts such as abstraction and inheritance."
+            "description": "Explore and find myths and legends from Colombia's culture! Interact with fun characters, solve puzzles and beat minigames to put myths back in their book. I coded all this project's features, from minigame logic to user interface.",
+            "useslist": "Applied practical knowledge in this project includes:\n   • Terrain generation with Rule Tiles.\n   • Dialogue system with Scriptable Objects.\n   • OOP concepts such as abstraction and inheritance."
         },
         {
             "id": "WB_POPUP",
             "title": "Wizard's Backyard",
-            "description": "In Wizard’s Backyard, players collect as many balloons as they can while propelling themselves through the air with a leaf blower. Playable solo or with up to 8 people online.\n For this project, I contributed to the programming of obstacles and collectables, as well as some of the player systems.",
+            "description": "Collect as many balloons as you can while flying through the air with a leaf blower!. Playable solo or with up to 8 people online.\n I contributed to the programming of obstacles and collectables, as well as some of the player systems.",
             "useslist": "Applied practical knowledge in this project includes:\n   • Object Pooling pattern.\n   • Unity Photon for online multiplayer.\n   • Physics-oriented movement."
         },
         {
             "id": "HR_POPUP",
             "title": "Hamster Roller",
-            "description": "A platformer in which the player controls a hamster that can change its shape to traverse obstacles and collect sunflower seeds. I programmed the mechanic involving changing shapes, as well as the collectables' logic and win and lose conditions.",
+            "description": "A platformer in which you play as a hamster that can chapeshift to traverse obstacles and collect sunflower seeds. I programmed the mechanic involving changing shapes, as well as the collectables' logic and win and lose conditions.",
             "useslist": "Applied practical knowledge in this project includes:\n   • State machines pattern.\n   • Blend Trees use.\n   • Prefabs use."
         },
         {
             "id": "LDSLN_POPUP",
             "title": "Los Duendes Salvan la Navidad",
-            "description": "An arcade game in which the player chases and collects elves to increase their gift counter and avoid running out of time. I was in charge of programming the player's and the elves' movement, as well as the game's main mechanics.",
+            "description": "An arcade game in which Santa Claus chases and collects elves to increase his gift counter and avoid running out of time. I was in charge of programming the player's and the elves' movement, as well as the game's main mechanics.",
             "useslist": "Applied practical knowledge in this project includes:\n   • Use of Prefabs variants.\n   • Terrain building with Rule Tiles.\n   • Blend Trees use."
         },
         {
             "id": "NMA_POPUP",
             "title": "No Más Alergias",
-            "description": "An educational game for browser or Android devices that I developed during my time as an intern in La Agencia UAO (an advertising agency), for the pharma company Inmunotek. The game's purpose is to explain to children what allergies are and how to treat them with immunotherapy.",
+            "description": "An educational game for browsers and Android devices. The game’s purpose is to explain to children what allergies are and how to treat them with immunotherapy. Developed for the pharma company Inmunotek.",
             "useslist": "Applied practical knowledge in this project includes:\n   • Singleton pattern.\n   • Animator Override Controllers use.\n   • Drag and Drop interfaces implementation."
         },
         {
@@ -39,32 +39,32 @@
         {
             "id": "LaIA_POPUP",
             "title": "LaIA",
-            "description": "LaIA is a university advertising campaign which I contributed to during my time as an intern in La Agencia UAO (an advertising agency). My contributions consisted of animating the mascot for the campaign in a variety of situations. The mascot had a presence in both longer form videos and short advertising animations.",
+            "description": "LaIA is a mascot for an university advertising campaign promoting the institutional accreditation of Universidad Autónoma de Occidente. My contributions consisted of animating the mascot for the campaign in a variety of situations. The mascot had a presence in both longer form videos and short advertising animations.",
             "useslist": "Applied practical knowledge in this project includes:\n   • Animating in After Effects.\n   • Lip Syncing.\n   • Using Illustrator and After Effects dynamically."
         },
         {
             "id": "Fundautonoma_POPUP",
             "title": "Sentidos FundAutónoma",
-            "description": "A commercial I worked on during my time as an intern, for the nonprofit organization by the Autónoma de Occidente university. I visited the organization to direct and film the commercial, as well as direct the voice over for it.",
+            "description": "A commercial for the nonprofit organization by Universidad Autónoma de Occidente. I visited the organization to direct and film the commercial.",
             "useslist": "Applied practical knowledge in this project includes:\n   • Rotobrush in After Effects.\n   • Audio recording with Avid Pro Tools.\n   • Dynamic link use with Premiere Pro and After Effects.\n"
         },
         {
             "id": "AgenciaUAO_POPUP",
             "title": "Reel La Agencia UAO",
-            "description": "A video I edited presenting the services, products and clients of La Agencia UAO, the advertising agency where I had my internship.",
+            "description": "A video I edited presenting the services, products and clients of La Agencia UAO, the advertising agency where I worked during my internship.",
             "useslist": "Applied practical knowledge in this project includes:\n   • After Effects' 3D Camera.\n   • Music and video sync in Premiere Pro.\n   • Dynamic link use with Premiere Pro and After Effects."
         },
         {
             "id": "CincuentaAnos_POPUP",
             "title": "Video caso 50 Años UAO",
-            "description": "A case-study video I worked on during my time as an intern in La Agencia UAO, the university of Autónoma de Occidente's advertising agency. The video takes a deep dive into the process that took part to design the branding for the university's 50-year anniversary.",
+            "description": "A case-study video for Universidad Autónoma de Occidente. The video takes a deep dive into the process that took place to design the branding for the university’s 50-year anniversary.",
             "useslist": "Applied practical knowledge in this project includes:\n   • Use of After Effects' motion blur.\n   • Text animation in After Effects.\n   • Dynamic link use with Premiere Pro and After Effects."
         },
         {
             "id": "Estudiantinas_POPUP",
             "title": "Estudiantinas Promo Videos",
-            "description": "Shorts created from filmed material to promote the release of the music videos by the Estudiantinas Regionales, groups performing traditional Colombian music.",
-            "useslist": "Applied practical knowledge in this project includes:\n   • Editing and camera panning to adapt the storytelling to a vertical format.\n   • Repurposing existing content to create original material.\n   • Synchronizing video and audio musically through editing."
+            "description": "Shorts created from filmed material to promote the release of music videos by the Estudiantinas Regionales, a nation-wide group of traditional Colombian music performers.",
+            "useslist": "Applied practical knowledge in this project includes:\n   • Camera panning to adapt storytelling to a vertical format.\n   • Repurposing existing content to create original material.\n   • Synchronizing video and audio musically through editing."
         }
     ]
 }

@@ -539,27 +539,23 @@ img {
 }
 
 .popup-description p{
-  margin-bottom: 12%;
+  margin-bottom: 2%;
 }
 
 .popup-footer {
   display: inline-flex;
   width: 95%;
-  justify-content: flex-end; /* Separate the link and icons */
+  justify-content: center;
   align-items: center;
-  margin-top: 25px;
   border-top: 1px solid #ccc;
   padding-top: 10px;
 }
 
 .popup-seemore-btn {
   display: flex;
-  flex: 0 0 auto;
   justify-content: center;
-  width: fit-content;  
-  padding: 10px 15px; 
-  margin-top: 25px;
-  margin-left: 35%;
+  padding: 10px 25px; 
+  margin: 3% 25%;
   background-color: #94baff; 
   color: #EBF2FA; 
   border-radius: 6px; 
@@ -606,7 +602,7 @@ img {
 .popup-text p{
   color: #EBF2FA;
   font-size: 14px;
-  margin: 0 0 15px 0;
+  margin: 0 0 2% 0;
 }
 
 .popup-text h5{
@@ -831,10 +827,6 @@ img {
   .popup-body{
     display: flex;
     flex-direction: column;
-  }
-
-  .popup-footer{
-    justify-content: space-evenly;
   }
 
   .youtube-container iframe{
