@@ -21,7 +21,7 @@
         {
             "id": "LDSLN_POPUP",
             "title": "Los Duendes Salvan la Navidad",
-            "description": "Un juego corto tipo arcade en el que el jugador recolecta duendes para aumentar su contador de regalos e impedir que se le acabe el tiempo. Para este proyecto fui el encargado de programar el movimiento de los personajes y las mecánicas de juego principales.",
+            "description": "Un juego arcade en el que el jugador recolecta duendes para aumentar su contador de regalos e impedir que se le acabe el tiempo. Programé el movimiento de los personajes y las mecánicas de juego principales.",
             "useslist": "Los conocimientos que apliqué para este proyecto incluyen:\n   • Variantes de prefabs.\n   • Implementación del terreno con Rule Tiles.\n   • Uso de Blend Trees."
         },
         {
@@ -34,7 +34,7 @@
             "id": "RM_POPUP",
             "title": "Robot Mafia",
             "description": "Un juego de puzles y acción actualmente en desarrollo, en el que el jugador utiliza reflejos para hacer rebotar sus disparos en espejos y eliminar enemigos. El juego incluye una variedad de mecanismos, tipos de enemigos y combates contra jefes.",
-            "useslist": "Los conocimientos que apliqué para este proyecto incluyen:\n   • Patrón de Singleton.\n    • Patrón de Object Pooling.\n   • Interfaces y clases abstractas.\n • Máquinas de estados.\n    • Scriptable Objects."
+            "useslist": "Los conocimientos que apliqué para este proyecto incluyen:\n    • Patrón de Object Pooling.\n   • Interfaces y clases abstractas.\n • Máquinas de estados.\n    • Scriptable Objects."
         },
         {
             "id": "LaIA_POPUP",

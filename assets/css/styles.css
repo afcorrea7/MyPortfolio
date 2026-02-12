@@ -599,9 +599,10 @@ img {
   font-weight: 350;
   margin-top: 1%;
 }
-.popup-text h2{
+.popup-text h3{
   color: #94baff;
 }
+
 .popup-text p{
   color: #EBF2FA;
   font-size: 14px;

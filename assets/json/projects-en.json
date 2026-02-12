@@ -21,8 +21,8 @@
         {
             "id": "LDSLN_POPUP",
             "title": "Los Duendes Salvan la Navidad",
-            "description": "A short arcade-like game in which the player chases and collects elves to increase their gift counter and avoid running out of time. For this project, I was in charge of programming the player's and the elves' movement, as well as the game's main mechanics.",
-            "useslist": "Applied practical knowledge in this project includes:\n   • Use of Prefabs variants.\n   • Terrain generation with Rule Tiles.\n   • Blend Trees use."
+            "description": "An arcade game in which the player chases and collects elves to increase their gift counter and avoid running out of time. I was in charge of programming the player's and the elves' movement, as well as the game's main mechanics.",
+            "useslist": "Applied practical knowledge in this project includes:\n   • Use of Prefabs variants.\n   • Terrain building with Rule Tiles.\n   • Blend Trees use."
         },
         {
             "id": "NMA_POPUP",
@@ -33,8 +33,8 @@
         {
             "id": "RM_POPUP",
             "title": "Robot Mafia",
-            "description": "A game we are currently working on. It’s a puzzles and action game in which the player uses reflections and angles in order to bounce their projectiles to eliminate enemies.",
-            "useslist": "Applied practical knowledge in this project includes:\n   • Singleton pattern.\n  • Object pooling pattern.\n  • Interfaces and abstract classes.\n    • State machines\n  • Scriptable Objects\n"
+            "description": "A currently in development puzzle and action game in which the player uses reflections to bounce their bullets on mirrors to eliminate enemies. The game features a variety of mechanisms, enemies and boss fights.",
+            "useslist": "Applied practical knowledge in this project includes:\n  • Object pooling pattern.\n  • Interfaces and abstract classes.\n    • State machines\n  • Scriptable Objects\n"
         },
         {
             "id": "LaIA_POPUP",
@@ -45,7 +45,7 @@
         {
             "id": "Fundautonoma_POPUP",
             "title": "Sentidos FundAutónoma",
-            "description": "A set of two commercials that I worked on during my time as an intern, for the nonprofit organization created by the university of Autónoma de Occidente. I had the privilege of visiting the organization myself to direct and film the second commercial, as well as direct the voice over for it.",
+            "description": "A commercial I worked on during my time as an intern, for the nonprofit organization by the Autónoma de Occidente university. I visited the organization to direct and film the commercial, as well as direct the voice over for it.",
             "useslist": "Applied practical knowledge in this project includes:\n   • Rotobrush in After Effects.\n   • Audio recording with Avid Pro Tools.\n   • Dynamic link use with Premiere Pro and After Effects.\n"
         },
         {

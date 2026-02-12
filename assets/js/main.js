@@ -108,10 +108,15 @@ function manageVideo(popupId){
 function closePopup(popupId) {
 	const popup = document.getElementById(popupId);
 	//Pause the video in the popup directly
-	const video = getPlayerVideo(popupId);
-	if(video){
-		video.pauseVideo(); //Youtube API
+	try{
+		const video = getPlayerVideo(popupId);
+		if(video){
+			video.pauseVideo(); //Youtube API
+		}
+	}catch(e){
+		console.warn("Video pause failed:", e);
 	}
+
 	popup.classList.remove('show-popup'); //finally, hide popup window
 }
 
