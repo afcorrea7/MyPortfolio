@@ -19,10 +19,10 @@
             "useslist": "Conocimientos aplicados en este proyecto incluyen:\n   • State machines.\n   • Uso de prefabs.\n   • Uso de Blend Trees."
         },
         {
-            "id": "LDSLN_POPUP",
-            "title": "Los Duendes Salvan la Navidad",
-            "description": "Un juego arcade en el que Santa Claus recolecta duendes para aumentar su contador de regalos e impedir que se le acabe el tiempo. Programé el movimiento de los personajes y las mecánicas de juego principales.",
-            "useslist": "Conocimientos aplicados en este proyecto incluyen:\n   • Variantes de prefabs.\n   • Implementación del terreno con Rule Tiles.\n   • Uso de Blend Trees."
+            "id": "MMC_POPUP",
+            "title": "La Máscara-Más-Cara",
+            "description": "En este juego frenético, enfrenta a 3 contrincantes CPU para conseguir la máscara dorada. Usa objetos para acumular puntos o quitarles la máscara a tus oponentes.\n Desarrollado en la Global Game Jam 2026, donde implementé todas las mecánicas y sistemas del juego.",
+            "useslist": "Conocimientos aplicados en este proyecto incluyen:\n   • State machines.\n   • Patrón de Object Pooling.\n   • Interfaces y clases abstractas.\n • Pathfinding 2D."
         },
         {
             "id": "NMA_POPUP",

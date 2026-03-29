@@ -827,6 +827,7 @@ img {
   .popup-body{
     display: flex;
     flex-direction: column;
+
   }
 
   .youtube-container iframe{
@@ -836,7 +837,7 @@ img {
 
   .popup-text p{
     align-self: start;
-    font-size: 0.7875rem;
+    font-size: 0.7rem;
   }
   .popup-text h2{
     margin-top: 10px;

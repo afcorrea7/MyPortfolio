@@ -19,10 +19,10 @@
             "useslist": "Applied practical knowledge in this project includes:\n   • State machines pattern.\n   • Blend Trees use.\n   • Prefabs use."
         },
         {
-            "id": "LDSLN_POPUP",
-            "title": "Los Duendes Salvan la Navidad",
-            "description": "An arcade game in which Santa Claus chases and collects elves to increase his gift counter and avoid running out of time. I was in charge of programming the player's and the elves' movement, as well as the game's main mechanics.",
-            "useslist": "Applied practical knowledge in this project includes:\n   • Use of Prefabs variants.\n   • Terrain building with Rule Tiles.\n   • Blend Trees use."
+            "id": "MMC_POPUP",
+            "title": "La Máscara-Más-Cara",
+            "description": "In this fast-paced game, the player faces off against three CPU opponents to take home the golden mask. Use items to rack up points or knock the masks off your opponents.\n Developed during the 2026 Global Game Jam, where I implemented all the game's mechanics and systems.",
+            "useslist": "Applied practical knowledge in this project includes:\n   • State machines pattern.\n   • Object Pooling pattern.\n   • Interfaces and abstract classes.\n • 2D Pathfinding."
         },
         {
             "id": "NMA_POPUP",
