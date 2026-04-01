@@ -5,7 +5,7 @@ Feel free to dig around.
 
 ## Credits
 
-The page was made from a template called Initio by Sergey Pozhilov, although it barely resembles it now (that makes me a little bit proud):
+The page was made from a template called Initio by Sergey Pozhilov, although it doesn't resembles it at all now
 https://www.gettemplate.com/demo/initio/
 http://pozhilov.com
 
@@ -18,7 +18,7 @@ Sientete libre de explorar.
 
 ## Créditos
 
-La página fue hecha a partir de una plantilla llamada Initio por Sergey Pozhilov, aunque hoy en día aduras penas se parecen (eso me hace sentir un poquito orgulloso):
+La página fue hecha a partir de una plantilla llamada Initio por Sergey Pozhilov, aunque hoy no se parezcan en nada
 https://www.gettemplate.com/demo/initio/
 http://pozhilov.com
 
