@@ -815,6 +815,10 @@ img {
     margin: 0 auto; /* Horizontally centers block element */
   }
 
+  .demo-reel iframe {
+    width: 87% !important; /* Takes priority */
+  }
+
   .section-title {
     display: flex; 
     flex-direction: column;
