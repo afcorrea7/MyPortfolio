@@ -414,7 +414,7 @@ img, video {
   aspect-ratio: 16 / 9; 
   width: 70% !important; /* Takes priority */
   border: 1px solid #ffffff;                /* Border around each block */
-  box-shadow: 0px 0px 10px 10px #ffffff77;
+  box-shadow: 0px 0px 5px 5px #ffffff77;
   border-radius: 15px;
 }
 
@@ -573,14 +573,14 @@ img {
   padding: 10px 25px; 
   margin: 3% 25%;
   background-color: #94baff; 
-  color: #EBF2FA; 
+  color: #3b00b2; 
   border-radius: 6px; 
   font-weight: 600;
   transition: transform 0.3s ease
 }
 
 .popup-seemore-btn:hover {
-  color: #EBF2FA; 
+  color: #3b00b2; 
   transform: scale(1.05); 
 }
 .popup-seemore-btn a, a:visited, a:hover, a:active { 
