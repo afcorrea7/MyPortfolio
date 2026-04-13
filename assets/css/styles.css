@@ -665,17 +665,12 @@ img {
 
 **********************************************************************/
 .section-title {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
   width: 100%;
   overflow: hidden;
   padding: 20px;
   background-color: #ccccff1a;
-  border: 1px solid #ffffff;
-  border-radius: 10px;
-  margin: 20px;
+  border-radius: 15px;
+  margin-bottom: 20px;
   text-align: center;
   font-weight: 800;
   font-size: 52px;
@@ -690,10 +685,6 @@ img {
 }
 .section-title span {
   position: relative;
-}
-.section-title:hover {
-  cursor: pointer;
-  transform: scale(1.05);
 }
 
 .collapse-arrow {
@@ -820,12 +811,8 @@ img {
   }
 
   .section-title {
-    display: flex; 
-    flex-direction: column;
-    justify-content: center; /* Centers items horizontally */
     width: 80%;
     font-size: 2rem;
-    padding-bottom: 0;
     align-items: center; /* Centers items vertically */
     margin: 0 auto; /* Horizontally centers block element */
   }
