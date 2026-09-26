@@ -33,7 +33,7 @@
         {
             "id": "RM_POPUP",
             "title": "Robot Mafia",
-            "description": "A currently in development puzzle and action game in which the player uses reflections to bounce their bullets on mirrors to eliminate enemies. The game features a variety of mechanisms, enemies and boss fights.",
+            "description": "A puzzle and action game, currently being developed with a planned Steam release, in which the player uses reflections to bounce their bullets on mirrors to eliminate enemies. The game features a variety of mechanisms, enemies and boss fights.",
             "useslist": "Applied practical knowledge in this project includes:\n  • Object pooling pattern.\n  • Interfaces and abstract classes.\n    • State machines\n  • Scriptable Objects\n"
         },
         {
